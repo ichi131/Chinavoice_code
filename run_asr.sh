@@ -21,6 +21,7 @@ CLONE_DIR=${CLONE_DIR:?"请通过环境变量 CLONE_DIR 指定代码克隆到的
 
 sudo docker pull "$DOCKER_IMAGE"
 
+
 # ---- 拉代码：固定 clone 到 CLONE_DIR 下；已存在就直接用，不再更新 ----
 PROJECT_ROOT="$CLONE_DIR/Chinavoice_code"
 if [[ ! -d "$PROJECT_ROOT/.git" ]]; then
