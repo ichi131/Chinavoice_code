@@ -66,3 +66,10 @@ infer_logs/
 *.swp
 *.swo
 .DS_Store
+
+# ===== 例外：exp/ 目录下需要保留的后处理脚本 =====
+# 允许 asr_chinavoices_vc 目录以及其中的 .py 脚本（用于 ASR 推理后处理）
+!FireRedASR2S-fintuning/exp/
+!FireRedASR2S-fintuning/exp/asr_chinavoices_vc/
+!FireRedASR2S-fintuning/exp/asr_chinavoices_vc/*.py
+
