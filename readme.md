@@ -5,13 +5,60 @@
 * **Task 1：语种识别（Language Identification, LID）**
 * **Task 2：语音识别（Automatic Speech Recognition, ASR）**
 
-两个任务均提供一键运行脚本。运行脚本后，项目代码和模型权重会自动下载到指定的工作目录中。
+两个任务均提供一键运行脚本。运行脚本后，项目代码和模型权重会自动下载到指定的项目运行目录中。
 
 项目地址：
 
 ```text
 https://github.com/ichi131/Chinavoice_code
 ```
+
+---
+
+## 数据准备
+
+数据路径需要指向评测数据集的 `evaluation_set` 目录。
+
+`evaluation_set` 目录下必须包含：
+
+* `wav.scp`：音频索引文件
+* `wav/`：存放评测音频文件的目录
+
+推荐的数据目录结构如下：
+
+```text
+evaluation_set/
+├── wav.scp
+└── wav/
+    ├── eval_000001.wav
+    ├── eval_000002.wav
+    └── ...
+```
+
+`wav.scp` 中每一行包含两个字段：
+
+```text
+<音频ID> <音频文件路径>
+```
+
+示例：
+
+```text
+eval_000001 evaluation_set/wav/eval_000001.wav
+eval_000002 evaluation_set/wav/eval_000002.wav
+```
+
+其中：
+
+* 第一个字段为音频 ID，例如 `eval_000001`。
+* 第二个字段为音频文件路径，例如 `evaluation_set/wav/eval_000001.wav`。
+* 两个字段之间使用空格分隔。
+* 每个音频文件对应一行记录。
+
+在下面的运行命令中：
+
+* Task 1 的 `DATA_ROOT` 必须指向 `evaluation_set` 目录。
+* Task 2 的 `EVALUATION_SET_DIR` 必须指向 `evaluation_set` 目录。
 
 ---
 
@@ -42,7 +89,7 @@ bash run_lid.sh
 ### 3. 参数说明
 
 * `WORKDIR`：项目运行目录。项目代码和模型权重会自动下载到该目录下。
-* `DATA_ROOT`：评测数据集所在目录。
+* `DATA_ROOT`：评测数据目录，必须指向 `evaluation_set` 目录。该目录下需要包含 `wav.scp` 和 `wav/` 音频目录。
 
 运行后，项目默认位于：
 
@@ -93,7 +140,7 @@ bash run_asr.sh
 ### 3. 参数说明
 
 * `CLONE_DIR`：项目运行目录。项目代码和模型权重会自动下载到该目录下。
-* `EVALUATION_SET_DIR`：评测数据集所在目录。
+* `EVALUATION_SET_DIR`：评测数据目录，必须指向 `evaluation_set` 目录。该目录下需要包含 `wav.scp` 和 `wav/` 音频目录。
 
 运行后，项目默认位于：
 
@@ -155,7 +202,9 @@ bash run_asr.sh
 
 ## 注意事项
 
-1. 请确保指定的工作目录具有足够的磁盘空间和读写权限。
-2. 请确保评测数据目录填写正确。
-3. 首次运行时，脚本需要下载项目代码、Docker 镜像及模型权重，因此需要可用的网络连接。
-4. 如果目标工作目录中已经存在旧版本的 `Chinavoice_code`，脚本可能会更新或复用已有目录，请根据实际情况提前备份重要文件。
+1. `DATA_ROOT` 和 `EVALUATION_SET_DIR` 都需要指向 `evaluation_set` 目录，而不是其上一级目录。
+2. `evaluation_set` 目录下必须包含 `wav.scp` 文件和 `wav/` 音频目录。
+3. 请确保 `wav.scp` 中记录的音频路径与实际文件位置一致。
+4. 请确保指定的项目运行目录具有足够的磁盘空间和读写权限。
+5. 首次运行时，脚本需要下载项目代码、Docker 镜像和模型权重，因此需要可用的网络连接。
+6. 如果项目运行目录中已经存在旧版本的 `Chinavoice_code`，脚本可能会更新或复用已有目录，请提前备份重要文件。
