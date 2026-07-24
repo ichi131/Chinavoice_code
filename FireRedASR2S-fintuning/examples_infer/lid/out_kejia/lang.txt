@@ -1,0 +1,2073 @@
+kejia_001172	zh yue
+kejia_000394	zh yue
+kejia_001768	other
+kejia_002012	zh yue
+kejia_000478	zh yue
+kejia_001327	zh yue
+kejia_000226	zh yue
+kejia_002016	zh yue
+kejia_000456	zh yue
+kejia_001082	zh xiang
+kejia_001155	zh yue
+kejia_001003	zh xinan
+kejia_001006	other
+kejia_001845	zh yue
+kejia_000928	zh yue
+kejia_000282	other
+kejia_000253	zh yue
+kejia_001565	ln
+kejia_000647	zh yue
+kejia_001744	zh yue
+kejia_001246	zh yue
+kejia_002047	other
+kejia_000057	zh yue
+kejia_001433	zh yue
+kejia_001595	other
+kejia_000157	zh yue
+kejia_001191	vi
+kejia_000410	zh yue
+kejia_000634	zh xinan
+kejia_000511	vi
+kejia_000273	other
+kejia_000082	zh min
+kejia_001974	zh yue
+kejia_000166	zh yue
+kejia_000652	zh yue
+kejia_000209	zh yue
+kejia_000148	zh yue
+kejia_001391	zh min
+kejia_001854	other
+kejia_000840	zh xinan
+kejia_000117	zh yue
+kejia_001953	zh yue
+kejia_000389	zh yue
+kejia_001518	zh yue
+kejia_000782	zh yue
+kejia_001012	zh north
+kejia_000591	zh yue
+kejia_001009	zh mandarin
+kejia_000418	zh yue
+kejia_002013	zh yue
+kejia_001076	zh yue
+kejia_000951	zh yue
+kejia_001677	other
+kejia_000491	zh xinan
+kejia_000357	zh min
+kejia_000801	vi
+kejia_000934	vi
+kejia_000699	zh min
+kejia_001957	zh min
+kejia_001756	zh yue
+kejia_002007	zh yue
+kejia_000084	zh yue
+kejia_001943	zh yue
+kejia_000568	zh yue
+kejia_000749	zh xinan
+kejia_000343	zh min
+kejia_001788	other
+kejia_000263	zh yue
+kejia_001257	zh yue
+kejia_002040	zh yue
+kejia_002066	zh yue
+kejia_001564	zh yue
+kejia_000310	fa
+kejia_001183	zh yue
+kejia_001907	zh yue
+kejia_001908	zh yue
+kejia_001413	zh yue
+kejia_000465	lo
+kejia_000140	zh min
+kejia_000279	ml
+kejia_001267	zh yue
+kejia_000281	zh yue
+kejia_000588	zh yue
+kejia_001673	zh yue
+kejia_000844	zh yue
+kejia_002054	zh yue
+kejia_000924	zh yue
+kejia_000625	zh yue
+kejia_000092	zh yue
+kejia_001385	zh yue
+kejia_000001	zh yue
+kejia_001475	other
+kejia_000586	zh yue
+kejia_000013	zh min
+kejia_000662	other
+kejia_000014	zh yue
+kejia_000638	zh yue
+kejia_000937	other
+kejia_000569	zh min
+kejia_001555	zh yue
+kejia_000126	th
+kejia_001885	zh yue
+kejia_000714	zh yue
+kejia_000747	zh yue
+kejia_000496	zh yue
+kejia_000452	zh yue
+kejia_001087	zh yue
+kejia_000704	other
+kejia_001656	lo
+kejia_000463	zh xiang
+kejia_000876	zh yue
+kejia_001173	zh yue
+kejia_001572	other
+kejia_000052	vi
+kejia_000293	zh yue
+kejia_001820	th
+kejia_000671	zh yue
+kejia_001575	zh yue
+kejia_001387	zh yue
+kejia_001831	zh yue
+kejia_001967	zh yue
+kejia_000484	zh mandarin
+kejia_000988	zh yue
+kejia_001243	zh yue
+kejia_000645	zh yue
+kejia_000904	other
+kejia_001737	vi
+kejia_001866	th
+kejia_000758	zh yue
+kejia_000252	zh xinan
+kejia_000793	vi
+kejia_000276	zh yue
+kejia_001544	zh min
+kejia_001528	zh min
+kejia_001799	zh yue
+kejia_000567	zh yue
+kejia_000811	zh yue
+kejia_000857	other
+kejia_002059	other
+kejia_000576	so
+kejia_002020	zh yue
+kejia_001770	zh yue
+kejia_001851	zh min
+kejia_001223	zh yue
+kejia_001934	zh min
+kejia_001636	other
+kejia_001343	zh yue
+kejia_001412	zh xiang
+kejia_001061	other
+kejia_001454	zh xinan
+kejia_000368	other
+kejia_000726	zh mandarin
+kejia_000776	zh min
+kejia_000224	zh yue
+kejia_001963	zh min
+kejia_000871	zh yue
+kejia_001347	zh yue
+kejia_000519	zh min
+kejia_001821	zh yue
+kejia_001443	zh yue
+kejia_001601	zh min
+kejia_000149	zh yue
+kejia_001365	zh yue
+kejia_002036	zh yue
+kejia_001380	vi
+kejia_000838	zh yue
+kejia_001646	zh min
+kejia_000830	zh yue
+kejia_001728	zh yue
+kejia_000248	vi
+kejia_000222	zh yue
+kejia_000626	zh yue
+kejia_001025	zh xinan
+kejia_000604	zh yue
+kejia_001077	other
+kejia_000331	zh yue
+kejia_000559	zh yue
+kejia_001197	zh yue
+kejia_000677	zh yue
+kejia_001312	zh yue
+kejia_000173	other
+kejia_000470	zh yue
+kejia_001840	zh yue
+kejia_001615	zh yue
+kejia_002071	zh yue
+kejia_001374	zh min
+kejia_001096	zh yue
+kejia_001185	zh xinan
+kejia_002033	zh min
+kejia_001192	zh yue
+kejia_001502	zh yue
+kejia_001078	zh north
+kejia_001019	other
+kejia_000792	vi
+kejia_000505	zh min
+kejia_000994	zh yue
+kejia_001978	zh yue
+kejia_001103	zh yue
+kejia_001610	zh min
+kejia_001053	zh yue
+kejia_001554	zh min
+kejia_000632	zh yue
+kejia_001426	zh yue
+kejia_001741	other
+kejia_001961	fa
+kejia_001234	other
+kejia_000286	zh yue
+kejia_001293	zh yue
+kejia_000748	zh mandarin
+kejia_000175	zh yue
+kejia_001460	zh min
+kejia_001650	zh min
+kejia_000723	zh min
+kejia_000764	zh yue
+kejia_001115	zh yue
+kejia_000034	zh north
+kejia_000197	zh xinan
+kejia_000584	zh yue
+kejia_000041	zh min
+kejia_000437	other
+kejia_001734	other
+kejia_001040	other
+kejia_001233	zh yue
+kejia_001637	other
+kejia_001671	zh yue
+kejia_000878	other
+kejia_002070	zh yue
+kejia_001269	zh yue
+kejia_001130	zh yue
+kejia_000431	zh yue
+kejia_002015	zh min
+kejia_000922	zh yue
+kejia_000364	zh yue
+kejia_001609	zh min
+kejia_000779	zh yue
+kejia_001704	zh yue
+kejia_001945	zh min
+kejia_000366	zh yue
+kejia_000837	other
+kejia_001118	zh yue
+kejia_000796	zh min
+kejia_001075	zh yue
+kejia_000164	other
+kejia_000021	sw
+kejia_001198	zh yue
+kejia_000514	zh yue
+kejia_002010	zh yue
+kejia_000423	zh yue
+kejia_000380	zh yue
+kejia_001284	zh xiang
+kejia_001023	zh yue
+kejia_001761	zh yue
+kejia_001861	zh yue
+kejia_001683	zh yue
+kejia_000788	zh yue
+kejia_001971	zh yue
+kejia_001397	zh yue
+kejia_001145	zh yue
+kejia_000098	zh min
+kejia_000274	zh yue
+kejia_001666	zh yue
+kejia_000119	zh yue
+kejia_000422	zh yue
+kejia_001889	zh min
+kejia_000344	zh yue
+kejia_000017	zh yue
+kejia_001050	zh yue
+kejia_000654	zh yue
+kejia_000781	zh yue
+kejia_000890	zh yue
+kejia_001032	other
+kejia_000062	zh yue
+kejia_000597	zh yue
+kejia_001152	vi
+kejia_001186	zh yue
+kejia_000629	other
+kejia_001587	vi
+kejia_002058	zh yue
+kejia_001366	zh yue
+kejia_002061	zh yue
+kejia_000342	zh xinan
+kejia_000667	zh xiang
+kejia_000379	yo
+kejia_001721	zh xiang
+kejia_001655	zh yue
+kejia_000097	zh min
+kejia_000835	zh yue
+kejia_001691	mi
+kejia_000845	zh north
+kejia_000643	other
+kejia_000733	zh yue
+kejia_000869	zh yue
+kejia_001622	zh yue
+kejia_000160	other
+kejia_001175	zh min
+kejia_000920	fa
+kejia_002042	other
+kejia_000594	zh yue
+kejia_000146	other
+kejia_000266	zh min
+kejia_001084	zh mandarin
+kejia_001367	zh yue
+kejia_000071	zh yue
+kejia_001881	zh min
+kejia_000596	zh min
+kejia_001996	vi
+kejia_000147	zh yue
+kejia_001987	zh yue
+kejia_000942	zh yue
+kejia_000992	zh yue
+kejia_000354	zh min
+kejia_001026	vi
+kejia_001642	lo
+kejia_001133	zh yue
+kejia_001156	other
+kejia_001014	zh min
+kejia_001332	zh min
+kejia_001114	zh min
+kejia_001793	zh yue
+kejia_000777	zh yue
+kejia_000231	zh yue
+kejia_000023	zh yue
+kejia_000804	zh min
+kejia_001956	zh min
+kejia_000259	zh yue
+kejia_000073	zh yue
+kejia_000620	zh mandarin
+kejia_001688	zh mandarin
+kejia_001818	other
+kejia_001972	zh yue
+kejia_000589	zh yue
+kejia_000991	zh yue
+kejia_000480	vi
+kejia_001527	zh yue
+kejia_001892	my
+kejia_001764	zh yue
+kejia_000391	zh yue
+kejia_001664	other
+kejia_000669	zh yue
+kejia_000033	zh yue
+kejia_002055	zh xiang
+kejia_000906	zh yue
+kejia_000950	zh yue
+kejia_001052	zh yue
+kejia_000969	zh yue
+kejia_000369	zh min
+kejia_000987	other
+kejia_000866	lo
+kejia_000797	zh yue
+kejia_001458	zh yue
+kejia_001399	zh yue
+kejia_001981	zh min
+kejia_000917	zh yue
+kejia_001992	zh yue
+kejia_000874	zh yue
+kejia_000736	zh min
+kejia_000294	zh min
+kejia_000817	zh min
+kejia_001750	zh yue
+kejia_000535	other
+kejia_001790	yo
+kejia_001363	zh min
+kejia_001165	zh yue
+kejia_001811	zh yue
+kejia_001080	zh yue
+kejia_000631	zh yue
+kejia_001856	zh min
+kejia_000441	zh yue
+kejia_000703	zh yue
+kejia_000577	zh min
+kejia_000578	zh xinan
+kejia_000446	zh yue
+kejia_002060	zh yue
+kejia_001296	fa
+kejia_000968	zh yue
+kejia_000262	zh yue
+kejia_000536	my
+kejia_000138	zh min
+kejia_000927	zh yue
+kejia_001348	zh yue
+kejia_000256	zh yue
+kejia_000921	zh yue
+kejia_001670	zh yue
+kejia_001709	zh yue
+kejia_001975	zh min
+kejia_001160	zh yue
+kejia_002002	my
+kejia_001242	zh min
+kejia_000582	other
+kejia_000283	zh yue
+kejia_000590	zh yue
+kejia_000406	zh min
+kejia_000641	zh yue
+kejia_000997	other
+kejia_000977	zh yue
+kejia_000203	other
+kejia_001286	zh yue
+kejia_001149	other
+kejia_000037	zh min
+kejia_001915	other
+kejia_000644	zh min
+kejia_000877	zh xiang
+kejia_001004	zh yue
+kejia_000729	zh yue
+kejia_000392	other
+kejia_000702	zh yue
+kejia_000440	zh yue
+kejia_001477	zh yue
+kejia_001767	zh yue
+kejia_001600	zh min
+kejia_000944	zh min
+kejia_001122	zh yue
+kejia_000665	zh yue
+kejia_000826	zh yue
+kejia_001274	zh xinan
+kejia_001853	vi
+kejia_001619	zh yue
+kejia_001824	zh yue
+kejia_000694	zh min
+kejia_001836	pt
+kejia_000043	zh yue
+kejia_000603	zh yue
+kejia_000106	zh yue
+kejia_001444	zh yue
+kejia_002009	zh yue
+kejia_001591	zh yue
+kejia_000940	vi
+kejia_000439	other
+kejia_000044	zh yue
+kejia_001711	zh north
+kejia_001965	zh xinan
+kejia_000886	zh yue
+kejia_000573	other
+kejia_002049	zh yue
+kejia_000162	zh mandarin
+kejia_001955	zh yue
+kejia_001950	zh yue
+kejia_000376	zh mandarin
+kejia_000885	zh yue
+kejia_000819	zh yue
+kejia_001520	zh yue
+kejia_001611	zh yue
+kejia_001901	zh min
+kejia_000338	zh yue
+kejia_001735	zh yue
+kejia_000955	zh xiang
+kejia_001812	zh yue
+kejia_000538	zh yue
+kejia_001256	zh min
+kejia_001489	zh yue
+kejia_001300	zh yue
+kejia_000345	zh yue
+kejia_000998	zh min
+kejia_001024	zh min
+kejia_001069	my
+kejia_000628	zh yue
+kejia_001382	zh mandarin
+kejia_001551	zh yue
+kejia_000288	zh yue
+kejia_001430	zh yue
+kejia_000899	other
+kejia_001678	other
+kejia_001914	zh min
+kejia_001362	zh yue
+kejia_000458	zh yue
+kejia_001403	zh yue
+kejia_001989	zh yue
+kejia_001088	other
+kejia_001590	zh min
+kejia_000409	zh yue
+kejia_001432	zh min
+kejia_000020	zh north
+kejia_000842	zh xiang
+kejia_001171	zh yue
+kejia_000065	zh yue
+kejia_001918	other
+kejia_000007	zh yue
+kejia_000122	zh yue
+kejia_001124	zh xiang
+kejia_000075	zh min
+kejia_000585	other
+kejia_000318	zh min
+kejia_000036	other
+kejia_001030	zh yue
+kejia_001775	zh yue
+kejia_002006	zh min
+kejia_000593	zh yue
+kejia_001537	zh yue
+kejia_000897	vi
+kejia_000219	lo
+kejia_001749	zh min
+kejia_000841	zh yue
+kejia_000553	zh min
+kejia_001872	zh yue
+kejia_001471	zh yue
+kejia_001013	zh yue
+kejia_001759	other
+kejia_000709	zh yue
+kejia_001416	other
+kejia_001139	zh yue
+kejia_000159	other
+kejia_001428	zh min
+kejia_001739	zh xinan
+kejia_000319	zh yue
+kejia_000038	zh yue
+kejia_001188	zh min
+kejia_000757	zh min
+kejia_000151	zh yue
+kejia_000233	zh yue
+kejia_000090	zh yue
+kejia_001717	zh yue
+kejia_000189	vi
+kejia_000419	zh min
+kejia_001580	zh yue
+kejia_000019	zh yue
+kejia_000718	zh yue
+kejia_000205	zh yue
+kejia_000532	zh yue
+kejia_000814	zh yue
+kejia_001360	zh yue
+kejia_001917	zh yue
+kejia_001001	zh xinan
+kejia_000004	other
+kejia_000794	vi
+kejia_001863	zh yue
+kejia_000510	zh xinan
+kejia_002052	zh min
+kejia_001239	lo
+kejia_001834	zh min
+kejia_001979	zh min
+kejia_000258	zh yue
+kejia_001000	other
+kejia_001614	zh min
+kejia_001605	zh xinan
+kejia_001606	other
+kejia_001779	zh yue
+kejia_000495	th
+kejia_000236	other
+kejia_000182	zh yue
+kejia_000900	zh yue
+kejia_001592	other
+kejia_000053	other
+kejia_000512	zh yue
+kejia_001472	zh yue
+kejia_000501	zh min
+kejia_001949	other
+kejia_001823	zh yue
+kejia_001187	zh min
+kejia_000299	zh yue
+kejia_000760	zh min
+kejia_000213	zh min
+kejia_000177	zh yue
+kejia_001825	vi
+kejia_000818	zh min
+kejia_001166	yo
+kejia_000167	zh yue
+kejia_000785	zh yue
+kejia_000613	zh yue
+kejia_001516	zh yue
+kejia_000746	other
+kejia_001828	zh yue
+kejia_000676	zh xinan
+kejia_001986	zh yue
+kejia_001213	zh yue
+kejia_000564	zh yue
+kejia_001089	zh yue
+kejia_001568	zh yue
+kejia_000635	zh yue
+kejia_000551	zh yue
+kejia_000280	zh yue
+kejia_000010	zh yue
+kejia_001295	zh min
+kejia_001309	zh yue
+kejia_001732	zh xinan
+kejia_001959	zh yue
+kejia_000430	zh yue
+kejia_000980	zh xiang
+kejia_000611	th
+kejia_002024	zh yue
+kejia_000690	zh yue
+kejia_001392	vi
+kejia_000767	zh min
+kejia_002014	zh xiang
+kejia_001106	zh xinan
+kejia_000995	zh yue
+kejia_000415	zh yue
+kejia_002050	zh yue
+kejia_001535	zh yue
+kejia_001285	other
+kejia_001499	zh yue
+kejia_000679	zh min
+kejia_001359	zh yue
+kejia_000534	zh yue
+kejia_001054	zh min
+kejia_001112	zh yue
+kejia_000706	other
+kejia_001991	zh yue
+kejia_002030	zh yue
+kejia_000685	zh min
+kejia_001874	zh yue
+kejia_001308	zh yue
+kejia_000257	zh yue
+kejia_001515	zh yue
+kejia_001328	zh yue
+kejia_000048	other
+kejia_001766	zh yue
+kejia_000607	zh yue
+kejia_001860	zh min
+kejia_001016	other
+kejia_000986	zh xinan
+kejia_001021	zh yue
+kejia_001181	zh min
+kejia_001932	zh yue
+kejia_001713	zh min
+kejia_001442	zh yue
+kejia_000040	zh min
+kejia_000687	zh yue
+kejia_001629	other
+kejia_000595	zh yue
+kejia_001161	zh yue
+kejia_000896	zh yue
+kejia_000104	zh yue
+kejia_000178	zh yue
+kejia_000311	zh yue
+kejia_000636	zh yue
+kejia_001631	vi
+kejia_000316	other
+kejia_001798	zh yue
+kejia_000327	my
+kejia_000964	other
+kejia_000089	other
+kejia_000153	zh yue
+kejia_000863	zh yue
+kejia_001011	zh yue
+kejia_001599	zh yue
+kejia_000958	zh min
+kejia_002045	zh yue
+kejia_000141	zh yue
+kejia_001276	zh min
+kejia_001306	other
+kejia_000882	zh yue
+kejia_001313	vi
+kejia_000525	other
+kejia_001624	zh xiang
+kejia_000436	zh xinan
+kejia_000763	zh yue
+kejia_000218	other
+kejia_000296	zh min
+kejia_001449	zh min
+kejia_001802	zh min
+kejia_000829	zh yue
+kejia_000105	zh min
+kejia_000228	zh yue
+kejia_001493	zh yue
+kejia_000152	zh yue
+kejia_000096	other
+kejia_000630	zh xinan
+kejia_001388	zh yue
+kejia_000428	zh yue
+kejia_001333	zh yue
+kejia_000855	zh yue
+kejia_000959	zh yue
+kejia_000868	zh yue
+kejia_001738	zh yue
+kejia_001352	other
+kejia_001822	zh yue
+kejia_000113	zh yue
+kejia_000270	zh yue
+kejia_001501	zh yue
+kejia_001778	other
+kejia_001042	zh xinan
+kejia_000198	zh min
+kejia_001517	zh north
+kejia_000805	vi
+kejia_001803	zh min
+kejia_000077	zh yue
+kejia_001867	zh xiang
+kejia_001848	zh yue
+kejia_001418	zh north
+kejia_001211	zh yue
+kejia_001525	zh yue
+kejia_000982	zh min
+kejia_001808	zh yue
+kejia_000661	zh yue
+kejia_001706	zh yue
+kejia_001020	zh min
+kejia_001842	zh yue
+kejia_000884	zh yue
+kejia_001066	zh yue
+kejia_000926	zh min
+kejia_001715	zh yue
+kejia_000581	zh yue
+kejia_000618	de
+kejia_000743	zh yue
+kejia_001684	vi
+kejia_000684	zh yue
+kejia_000255	zh min
+kejia_001783	zh yue
+kejia_001207	vi
+kejia_001815	vi
+kejia_000824	vi
+kejia_000956	zh xinan
+kejia_000856	zh min
+kejia_000229	zh yue
+kejia_001408	zh min
+kejia_002005	zh min
+kejia_000936	other
+kejia_001055	zh yue
+kejia_001060	other
+kejia_001033	vi
+kejia_000524	zh min
+kejia_000261	zh north
+kejia_000893	zh yue
+kejia_001398	zh yue
+kejia_001948	zh yue
+kejia_001144	zh yue
+kejia_001336	zh yue
+kejia_000107	zh yue
+kejia_000751	zh yue
+kejia_000691	zh yue
+kejia_001129	zh yue
+kejia_001131	zh yue
+kejia_001487	zh yue
+kejia_000531	zh yue
+kejia_001008	zh yue
+kejia_001236	zh yue
+kejia_001305	zh yue
+kejia_000131	zh yue
+kejia_001101	zh north
+kejia_001357	vi
+kejia_002073	zh xinan
+kejia_000516	zh min
+kejia_001225	zh yue
+kejia_001596	th
+kejia_000400	zh yue
+kejia_000168	zh yue
+kejia_001237	zh yue
+kejia_000621	zh yue
+kejia_001346	zh yue
+kejia_000765	zh yue
+kejia_001445	zh yue
+kejia_001887	zh yue
+kejia_000109	zh min
+kejia_001039	zh yue
+kejia_001422	other
+kejia_000365	zh yue
+kejia_000800	zh yue
+kejia_001028	zh yue
+kejia_000328	zh yue
+kejia_000066	zh yue
+kejia_001826	zh yue
+kejia_000911	ba
+kejia_000411	zh xiang
+kejia_001174	zh min
+kejia_000118	zh yue
+kejia_000212	zh yue
+kejia_000961	zh yue
+kejia_000306	zh yue
+kejia_001514	zh yue
+kejia_000554	zh xinan
+kejia_000843	zh min
+kejia_000649	zh yue
+kejia_001476	zh min
+kejia_001377	zh xiang
+kejia_000526	zh yue
+kejia_001094	zh min
+kejia_001208	vi
+kejia_000401	zh yue
+kejia_000774	zh yue
+kejia_000865	zh yue
+kejia_001896	zh yue
+kejia_000244	zh yue
+kejia_000011	zh min
+kejia_000291	zh yue
+kejia_000556	zh yue
+kejia_001693	zh min
+kejia_001736	zh yue
+kejia_000332	zh yue
+kejia_000945	zh yue
+kejia_000206	zh xinan
+kejia_000836	zh yue
+kejia_001157	zh yue
+kejia_000919	zh yue
+kejia_000301	zh yue
+kejia_000111	zh yue
+kejia_000889	zh yue
+kejia_001558	zh min
+kejia_000545	other
+kejia_000883	zh yue
+kejia_001618	th
+kejia_000910	other
+kejia_000425	lo
+kejia_001474	zh yue
+kejia_001573	zh yue
+kejia_001833	zh min
+kejia_000903	zh yue
+kejia_001164	zh min
+kejia_002001	zh xiang
+kejia_001085	zh yue
+kejia_000614	other
+kejia_000602	zh yue
+kejia_001104	vi
+kejia_001817	zh min
+kejia_000025	th
+kejia_001205	zh yue
+kejia_000772	zh yue
+kejia_000933	other
+kejia_001376	zh yue
+kejia_000475	zh yue
+kejia_001331	zh yue
+kejia_000340	zh north
+kejia_000875	zh yue
+kejia_001378	zh yue
+kejia_000738	zh min
+kejia_000966	zh min
+kejia_000085	zh yue
+kejia_001214	zh yue
+kejia_001281	zh yue
+kejia_001712	other
+kejia_001201	zh yue
+kejia_001912	zh yue
+kejia_000846	zh yue
+kejia_000187	zh min
+kejia_000346	zh yue
+kejia_001560	zh yue
+kejia_000606	zh yue
+kejia_001970	zh min
+kejia_000898	zh yue
+kejia_001579	other
+kejia_000999	zh yue
+kejia_001985	zh yue
+kejia_001960	zh min
+kejia_001169	th
+kejia_000492	zh xinan
+kejia_002065	zh min
+kejia_001725	zh yue
+kejia_001402	zh yue
+kejia_000237	zh yue
+kejia_001714	other
+kejia_000382	zh yue
+kejia_001147	zh yue
+kejia_000502	zh yue
+kejia_001485	zh min
+kejia_000309	zh yue
+kejia_000047	zh yue
+kejia_000722	zh yue
+kejia_001095	lo
+kejia_001904	zh yue
+kejia_001702	zh yue
+kejia_000734	zh yue
+kejia_002022	zh min
+kejia_001462	zh yue
+kejia_001632	zh yue
+kejia_000372	zh yue
+kejia_001482	other
+kejia_000646	zh yue
+kejia_000507	zh min
+kejia_000740	zh yue
+kejia_000232	zh yue
+kejia_001789	zh min
+kejia_001752	zh min
+kejia_001017	zh yue
+kejia_001098	zh yue
+kejia_000395	other
+kejia_000615	zh min
+kejia_000798	other
+kejia_000348	zh yue
+kejia_000806	zh yue
+kejia_001227	zh min
+kejia_001621	zh yue
+kejia_001843	zh min
+kejia_000333	zh yue
+kejia_001686	zh yue
+kejia_000916	th
+kejia_001248	zh yue
+kejia_000079	zh yue
+kejia_001816	zh mandarin
+kejia_001947	zh yue
+kejia_000050	zh min
+kejia_001229	gn
+kejia_000251	zh min
+kejia_001930	th
+kejia_001448	other
+kejia_000905	zh yue
+kejia_000974	zh yue
+kejia_001921	zh min
+kejia_000880	zh yue
+kejia_001202	zh yue
+kejia_001086	zh min
+kejia_001649	zh yue
+kejia_001034	zh yue
+kejia_001321	zh yue
+kejia_001048	zh min
+kejia_001329	other
+kejia_001532	zh yue
+kejia_001722	zh yue
+kejia_001206	zh yue
+kejia_000674	zh yue
+kejia_000540	zh yue
+kejia_002028	zh yue
+kejia_000139	zh xinan
+kejia_001760	zh yue
+kejia_000859	zh yue
+kejia_001894	zh xinan
+kejia_001097	zh xinan
+kejia_001102	zh yue
+kejia_001924	zh yue
+kejia_001340	other
+kejia_001453	zh yue
+kejia_000727	other
+kejia_001029	zh yue
+kejia_002023	th
+kejia_000954	zh yue
+kejia_000442	zh min
+kejia_000102	other
+kejia_001364	zh yue
+kejia_000759	zh yue
+kejia_000086	vi
+kejia_000820	zh yue
+kejia_001549	zh yue
+kejia_000390	zh yue
+kejia_001318	zh yue
+kejia_001204	zh yue
+kejia_000235	zh yue
+kejia_000713	zh yue
+kejia_001200	zh yue
+kejia_000637	th
+kejia_000657	zh yue
+kejia_000179	zh min
+kejia_000412	zh yue
+kejia_002031	zh yue
+kejia_000132	zh yue
+kejia_001674	zh yue
+kejia_001262	other
+kejia_001897	zh min
+kejia_000172	my
+kejia_001450	zh yue
+kejia_001813	zh yue
+kejia_001339	zh yue
+kejia_002011	zh yue
+kejia_001508	zh yue
+kejia_000488	zh min
+kejia_000673	zh xinan
+kejia_000552	zh yue
+kejia_000721	zh yue
+kejia_001758	zh yue
+kejia_000771	zh min
+kejia_001857	zh yue
+kejia_000695	zh yue
+kejia_001707	zh min
+kejia_000169	zh yue
+kejia_001335	zh yue
+kejia_000923	zh yue
+kejia_001142	zh min
+kejia_001634	zh mandarin
+kejia_001946	zh yue
+kejia_000575	zh yue
+kejia_001583	zh min
+kejia_001542	vi
+kejia_001890	sn
+kejia_001905	zh yue
+kejia_000101	zh yue
+kejia_001876	zh yue
+kejia_000668	zh xiang
+kejia_001056	zh yue
+kejia_000935	zh yue
+kejia_001092	other
+kejia_000627	zh yue
+kejia_002068	zh min
+kejia_000135	zh yue
+kejia_000558	zh yue
+kejia_000745	zh yue
+kejia_000754	zh yue
+kejia_000862	zh min
+kejia_000693	zh yue
+kejia_001550	zh yue
+kejia_001616	th
+kejia_000750	zh yue
+kejia_001135	zh yue
+kejia_002062	zh yue
+kejia_000163	other
+kejia_000088	zh yue
+kejia_001431	zh yue
+kejia_001999	zh yue
+kejia_000202	zh yue
+kejia_001769	zh yue
+kejia_001417	zh yue
+kejia_001687	zh yue
+kejia_000221	zh yue
+kejia_000707	zh yue
+kejia_001931	zh yue
+kejia_000397	zh yue
+kejia_000831	zh yue
+kejia_000386	zh yue
+kejia_000080	zh yue
+kejia_001925	vi
+kejia_001196	zh yue
+kejia_001902	zh min
+kejia_000278	other
+kejia_001311	zh min
+kejia_001134	fa
+kejia_001891	zh yue
+kejia_000016	zh yue
+kejia_001916	zh yue
+kejia_000292	zh yue
+kejia_000639	other
+kejia_000377	zh yue
+kejia_001490	zh yue
+kejia_001411	zh yue
+kejia_001478	zh yue
+kejia_001425	zh xinan
+kejia_001748	zh xinan
+kejia_000543	zh yue
+kejia_000849	zh yue
+kejia_001146	zh yue
+kejia_001608	vi
+kejia_001570	other
+kejia_000953	zh min
+kejia_000983	mi
+kejia_001584	zh yue
+kejia_001557	zh yue
+kejia_000605	other
+kejia_000828	zh yue
+kejia_001123	zh yue
+kejia_002069	zh yue
+kejia_001566	zh xinan
+kejia_001491	zh yue
+kejia_001589	zh yue
+kejia_000335	zh yue
+kejia_000499	zh wu
+kejia_001325	zh north
+kejia_001136	zh min
+kejia_001091	zh min
+kejia_001692	zh yue
+kejia_001581	zh yue
+kejia_001607	zh xinan
+kejia_000686	zh yue
+kejia_001884	zh min
+kejia_001405	zh min
+kejia_001371	zh yue
+kejia_001291	zh yue
+kejia_001942	zh yue
+kejia_001263	other
+kejia_000528	zh yue
+kejia_001966	zh min
+kejia_001255	zh yue
+kejia_002043	my
+kejia_001547	zh min
+kejia_001782	zh yue
+kejia_000469	zh yue
+kejia_001143	vi
+kejia_000072	zh yue
+kejia_000513	zh min
+kejia_001906	zh yue
+kejia_000622	zh xiang
+kejia_000350	zh min
+kejia_000334	zh yue
+kejia_001063	zh min
+kejia_000093	th
+kejia_001027	vi
+kejia_001576	zh yue
+kejia_000056	zh min
+kejia_000795	zh yue
+kejia_001569	zh yue
+kejia_000247	zh min
+kejia_001446	zh yue
+kejia_000287	zh min
+kejia_000322	zh min
+kejia_000560	zh yue
+kejia_000664	zh xiang
+kejia_000227	th
+kejia_001414	zh yue
+kejia_000339	zh yue
+kejia_001259	zh yue
+kejia_001341	th
+kejia_001037	zh yue
+kejia_000250	zh yue
+kejia_002008	zh min
+kejia_000362	zh yue
+kejia_001694	zh yue
+kejia_001218	zh yue
+kejia_001467	zh yue
+kejia_000941	zh mandarin
+kejia_001577	zh yue
+kejia_001138	zh yue
+kejia_001307	zh yue
+kejia_001222	zh yue
+kejia_000672	zh xinan
+kejia_001864	zh yue
+kejia_001253	zh yue
+kejia_001298	zh yue
+kejia_001685	zh yue
+kejia_001523	zh min
+kejia_000433	zh yue
+kejia_000358	other
+kejia_001018	zh yue
+kejia_000094	zh xiang
+kejia_001301	zh min
+kejia_000786	zh yue
+kejia_000108	zh yue
+kejia_000295	zh xiang
+kejia_001899	zh yue
+kejia_001297	bo
+kejia_001427	zh yue
+kejia_000398	zh xiang
+kejia_001031	zh min
+kejia_001698	zh xinan
+kejia_001002	zh yue
+kejia_000981	zh yue
+kejia_001562	other
+kejia_001005	zh yue
+kejia_001045	zh yue
+kejia_000755	zh yue
+kejia_001064	zh xinan
+kejia_001369	zh yue
+kejia_001617	vi
+kejia_001529	zh yue
+kejia_000064	zh yue
+kejia_000521	zh yue
+kejia_001059	zh yue
+kejia_002026	zh yue
+kejia_001765	zh yue
+kejia_001719	other
+kejia_000091	zh yue
+kejia_000832	zh yue
+kejia_001638	zh yue
+kejia_000207	zh north
+kejia_002056	zh yue
+kejia_001108	vi
+kejia_000696	other
+kejia_000827	zh yue
+kejia_001635	zh yue
+kejia_000042	zh yue
+kejia_000449	zh yue
+kejia_001898	lo
+kejia_000601	zh yue
+kejia_001217	other
+kejia_001381	zh yue
+kejia_000420	zh mandarin
+kejia_001220	zh yue
+kejia_001689	zh min
+kejia_001791	zh yue
+kejia_001745	other
+kejia_001128	zh yue
+kejia_001920	zh min
+kejia_001368	zh yue
+kejia_001984	zh min
+kejia_001733	zh min
+kejia_001928	zh yue
+kejia_001074	zh yue
+kejia_001182	zh xiang
+kejia_001268	zh xiang
+kejia_000059	zh yue
+kejia_001911	zh yue
+kejia_000504	zh xiang
+kejia_001473	zh yue
+kejia_001533	zh yue
+kejia_001797	zh yue
+kejia_001980	zh xinan
+kejia_000204	zh yue
+kejia_000054	th
+kejia_000737	vi
+kejia_000039	zh yue
+kejia_000970	th
+kejia_001506	zh yue
+kejia_001962	zh min
+kejia_000363	zh yue
+kejia_000225	zh yue
+kejia_000241	zh yue
+kejia_000892	zh min
+kejia_000549	zh yue
+kejia_001852	zh yue
+kejia_001643	zh xiang
+kejia_001280	zh min
+kejia_001354	lo
+kejia_000201	zh yue
+kejia_001260	zh yue
+kejia_000720	zh yue
+kejia_000744	zh yue
+kejia_000024	zh yue
+kejia_000715	my
+kejia_000833	zh yue
+kejia_000498	other
+kejia_001463	zh north
+kejia_000100	ba
+kejia_001548	zh yue
+kejia_001929	zh yue
+kejia_001559	other
+kejia_000659	vi
+kejia_000313	zh min
+kejia_001716	zh min
+kejia_001330	zh yue
+kejia_000099	ja
+kejia_001162	zh yue
+kejia_000371	zh min
+kejia_000912	zh yue
+kejia_000329	zh xinan
+kejia_001645	zh yue
+kejia_000413	zh min
+kejia_000965	other
+kejia_000116	zh min
+kejia_000035	zh min
+kejia_000383	zh yue
+kejia_000708	zh yue
+kejia_000770	zh yue
+kejia_002067	th
+kejia_001283	zh yue
+kejia_000444	zh xiang
+kejia_001044	zh yue
+kejia_002048	zh yue
+kejia_000670	zh yue
+kejia_000663	zh min
+kejia_000656	zh min
+kejia_002004	zh yue
+kejia_000267	zh mandarin
+kejia_000864	zh yue
+kejia_001952	zh min
+kejia_000680	zh yue
+kejia_001137	my
+kejia_000074	zh yue
+kejia_000170	zh yue
+kejia_001043	zh xinan
+kejia_001219	zh min
+kejia_001151	other
+kejia_001121	other
+kejia_000186	zh yue
+kejia_001180	zh yue
+kejia_000030	zh yue
+kejia_000494	zh yue
+kejia_001844	zh north
+kejia_000728	zh min
+kejia_000598	zh xinan
+kejia_001126	zh xinan
+kejia_000984	zh yue
+kejia_000028	zh yue
+kejia_000300	zh yue
+kejia_000990	zh yue
+kejia_001895	zh yue
+kejia_001132	zh yue
+kejia_000732	zh yue
+kejia_001883	th
+kejia_001338	zh yue
+kejia_001776	zh yue
+kejia_000860	zh min
+kejia_001556	zh xinan
+kejia_000387	zh yue
+kejia_000522	zh min
+kejia_000509	zh yue
+kejia_000455	zh yue
+kejia_001801	zh yue
+kejia_001470	zh yue
+kejia_001439	other
+kejia_001994	zh yue
+kejia_002039	zh yue
+kejia_001350	other
+kejia_000752	other
+kejia_000260	zh yue
+kejia_000136	zh yue
+kejia_000497	zh yue
+kejia_000949	zh yue
+kejia_000529	zh xinan
+kejia_001079	zh yue
+kejia_000648	zh min
+kejia_001998	zh yue
+kejia_000546	zh yue
+kejia_000326	zh yue
+kejia_001441	zh yue
+kejia_001221	other
+kejia_000230	vi
+kejia_000698	zh yue
+kejia_000735	zh min
+kejia_001240	zh yue
+kejia_000812	zh yue
+kejia_001807	zh min
+kejia_001873	other
+kejia_001534	zh min
+kejia_001780	zh yue
+kejia_000563	zh yue
+kejia_001036	zh yue
+kejia_001880	vi
+kejia_000181	zh yue
+kejia_000445	other
+kejia_002035	zh min
+kejia_000570	zh xiang
+kejia_000325	zh yue
+kejia_000947	other
+kejia_001682	zh xinan
+kejia_000485	zh yue
+kejia_001176	zh yue
+kejia_000640	zh yue
+kejia_000931	zh yue
+kejia_000183	zh min
+kejia_001700	zh yue
+kejia_001314	other
+kejia_001317	zh yue
+kejia_001168	zh yue
+kejia_001792	zh xinan
+kejia_001574	zh yue
+kejia_000939	vi
+kejia_000989	zh yue
+kejia_001401	zh yue
+kejia_000158	zh xiang
+kejia_001375	zh yue
+kejia_001270	zh yue
+kejia_001827	zh min
+kejia_001933	zh yue
+kejia_001170	zh min
+kejia_001483	my
+kejia_000681	zh yue
+kejia_001289	zh yue
+kejia_001513	vi
+kejia_000996	zh yue
+kejia_001406	zh min
+kejia_001210	vi
+kejia_001396	zh min
+kejia_001150	zh yue
+kejia_001800	zh yue
+kejia_001058	zh yue
+kejia_001754	zh yue
+kejia_001639	zh yue
+kejia_001349	zh north
+kejia_001379	zh yue
+kejia_001254	zh yue
+kejia_000810	zh north
+kejia_001456	zh min
+kejia_000154	zh xiang
+kejia_001337	my
+kejia_001531	zh wu
+kejia_000403	zh yue
+kejia_001215	zh mandarin
+kejia_000190	zh yue
+kejia_002018	other
+kejia_001423	vi
+kejia_001888	zh yue
+kejia_000971	zh min
+kejia_001252	vi
+kejia_001839	zh yue
+kejia_000302	zh yue
+kejia_001189	other
+kejia_001457	zh min
+kejia_000200	zh yue
+kejia_001993	zh yue
+kejia_002072	zh xinan
+kejia_001125	zh yue
+kejia_001504	zh min
+kejia_000580	zh yue
+kejia_001763	zh yue
+kejia_001241	zh xiang
+kejia_001247	zh yue
+kejia_001492	zh yue
+kejia_001266	zh yue
+kejia_001304	et
+kejia_001777	zh min
+kejia_000031	zh yue
+kejia_000323	zh min
+kejia_001251	zh yue
+kejia_000701	zh min
+kejia_000249	zh min
+kejia_000012	other
+kejia_001837	zh yue
+kejia_001695	zh yue
+kejia_001676	zh yue
+kejia_000474	zh yue
+kejia_000045	zh yue
+kejia_000902	zh yue
+kejia_001909	zh yue
+kejia_000284	zh yue
+kejia_000784	zh yue
+kejia_001511	zh yue
+kejia_001938	zh min
+kejia_000069	zh yue
+kejia_001900	zh xiang
+kejia_000194	zh min
+kejia_000180	other
+kejia_000375	other
+kejia_000055	zh yue
+kejia_001407	zh mandarin
+kejia_000223	zh yue
+kejia_001530	zh yue
+kejia_000005	zh yue
+kejia_001393	zh yue
+kejia_002029	zh xinan
+kejia_000716	zh min
+kejia_000184	zh yue
+kejia_001977	zh yue
+kejia_000766	zh yue
+kejia_001107	other
+kejia_000095	zh yue
+kejia_000909	vi
+kejia_001434	zh yue
+kejia_001877	zh xinan
+kejia_000482	other
+kejia_001594	zh yue
+kejia_000242	zh xiang
+kejia_002037	zh yue
+kejia_001781	zh yue
+kejia_000566	zh yue
+kejia_002038	other
+kejia_000298	zh yue
+kejia_002041	zh yue
+kejia_001829	zh yue
+kejia_001505	zh min
+kejia_000015	zh yue
+kejia_000130	zh min
+kejia_000557	other
+kejia_001035	zh yue
+kejia_001177	zh yue
+kejia_000174	zh yue
+kejia_000609	zh min
+kejia_001326	zh yue
+kejia_000393	zh yue
+kejia_001294	zh yue
+kejia_001290	other
+kejia_000337	vi
+kejia_000275	zh yue
+kejia_000610	zh min
+kejia_001720	zh yue
+kejia_000823	zh min
+kejia_001498	zh yue
+kejia_000467	zh yue
+kejia_000487	zh yue
+kejia_000887	zh yue
+kejia_001486	zh yue
+kejia_001653	zh yue
+kejia_000473	zh yue
+kejia_000018	zh min
+kejia_001832	zh yue
+kejia_000542	zh yue
+kejia_000191	zh yue
+kejia_001488	zh yue
+kejia_001913	other
+kejia_001153	zh yue
+kejia_001585	zh yue
+kejia_000466	zh yue
+kejia_000324	zh yue
+kejia_001729	zh yue
+kejia_001593	zh yue
+kejia_001526	zh yue
+kejia_001384	zh yue
+kejia_000895	zh yue
+kejia_001661	zh yue
+kejia_001954	zh yue
+kejia_001049	zh yue
+kejia_001746	zh xiang
+kejia_000739	zh yue
+kejia_001190	zh yue
+kejia_000612	zh yue
+kejia_001604	lo
+kejia_001372	zh yue
+kejia_000506	zh min
+kejia_001910	zh yue
+kejia_000617	zh yue
+kejia_001395	zh yue
+kejia_001598	zh min
+kejia_002021	zh yue
+kejia_001099	zh yue
+kejia_001747	other
+kejia_001323	zh yue
+kejia_001275	zh yue
+kejia_000479	other
+kejia_001602	zh yue
+kejia_000407	zh min
+kejia_000688	zh min
+kejia_001083	zh yue
+kejia_001982	zh yue
+kejia_001090	zh min
+kejia_000807	zh xinan
+kejia_001415	lo
+kejia_000973	zh yue
+kejia_000134	zh min
+kejia_001466	zh min
+kejia_001117	zh yue
+kejia_000435	zh min
+kejia_000312	zh min
+kejia_000816	zh yue
+kejia_000161	zh min
+kejia_000459	zh yue
+kejia_000851	other
+kejia_000063	other
+kejia_001507	zh min
+kejia_000537	zh yue
+kejia_000268	zh xiang
+kejia_000374	zh yue
+kejia_000114	zh yue
+kejia_002019	zh yue
+kejia_001937	zh yue
+kejia_000195	zh yue
+kejia_001669	zh min
+kejia_000773	zh yue
+kejia_000608	zh yue
+kejia_001652	zh yue
+kejia_000852	zh yue
+kejia_001613	zh yue
+kejia_001809	zh yue
+kejia_000724	zh yue
+kejia_001480	other
+kejia_001273	zh mandarin
+kejia_000471	zh yue
+kejia_001723	zh yue
+kejia_000518	zh min
+kejia_001964	zh yue
+kejia_001870	other
+kejia_000572	other
+kejia_002000	zh yue
+kejia_000216	zh yue
+kejia_001773	zh yue
+kejia_001358	zh yue
+kejia_001065	zh yue
+kejia_000438	zh yue
+kejia_001250	ab
+kejia_001810	zh yue
+kejia_000651	zh min
+kejia_001846	zh min
+kejia_001995	zh yue
+kejia_000002	zh yue
+kejia_000730	zh min
+kejia_000571	zh yue
+kejia_001258	zh min
+kejia_000414	zh yue
+kejia_001316	zh min
+kejia_001455	zh min
+kejia_001680	zh yue
+kejia_001903	zh yue
+kejia_000143	zh yue
+kejia_000813	zh yue
+kejia_001640	zh yue
+kejia_001819	zh min
+kejia_000762	zh min
+kejia_001070	other
+kejia_000872	zh min
+kejia_001658	zh xinan
+kejia_001140	vi
+kejia_001858	zh yue
+kejia_000802	zh yue
+kejia_001705	zh yue
+kejia_000907	zh yue
+kejia_001785	zh yue
+kejia_001690	zh yue
+kejia_000881	zh xinan
+kejia_000914	zh min
+kejia_001647	zh yue
+kejia_001345	zh yue
+kejia_002046	zh yue
+kejia_000783	zh yue
+kejia_001282	other
+kejia_001540	zh yue
+kejia_001935	zh yue
+kejia_000243	zh min
+kejia_001116	lo
+kejia_001662	zh yue
+kejia_001245	zh yue
+kejia_001672	zh yue
+kejia_000769	zh yue
+kejia_000775	vi
+kejia_000210	zh yue
+kejia_000894	zh min
+kejia_000176	zh xiang
+kejia_000315	zh yue
+kejia_000215	zh yue
+kejia_001111	other
+kejia_000061	zh yue
+kejia_000137	zh min
+kejia_001067	zh min
+kejia_001805	other
+kejia_001154	other
+kejia_000967	fa
+kejia_001496	zh yue
+kejia_000185	zh yue
+kejia_001919	zh xiang
+kejia_001865	zh yue
+kejia_001429	zh yue
+kejia_000129	zh yue
+kejia_000587	zh yue
+kejia_001794	zh min
+kejia_000761	zh yue
+kejia_001552	zh yue
+kejia_001804	vi
+kejia_000156	zh yue
+kejia_000404	zh yue
+kejia_000993	zh min
+kejia_001022	zh yue
+kejia_000711	zh yue
+kejia_000790	zh yue
+kejia_001437	zh yue
+kejia_000373	zh yue
+kejia_000142	other
+kejia_000490	other
+kejia_000915	zh min
+kejia_001216	zh yue
+kejia_001939	zh min
+kejia_000583	zh yue
+kejia_001708	zh yue
+kejia_000417	other
+kejia_001541	zh yue
+kejia_001452	gn
+kejia_000650	zh yue
+kejia_000834	zh yue
+kejia_001543	zh yue
+kejia_000464	zh yue
+kejia_001620	zh yue
+kejia_000655	zh yue
+kejia_000115	zh yue
+kejia_000975	zh yue
+kejia_000520	vi
+kejia_000304	zh yue
+kejia_001424	zh min
+kejia_001238	zh min
+kejia_001278	mi
+kejia_000265	zh yue
+kejia_001231	zh yue
+kejia_001814	zh min
+kejia_001390	zh yue
+kejia_001701	zh xiang
+kejia_001038	zh xiang
+kejia_000579	zh yue
+kejia_001753	zh xinan
+kejia_000972	zh yue
+kejia_000500	zh yue
+kejia_001447	zh xiang
+kejia_000214	zh yue
+kejia_001795	zh min
+kejia_000822	zh yue
+kejia_001148	zh min
+kejia_000361	zh min
+kejia_001163	zh yue
+kejia_000675	zh yue
+kejia_000725	zh min
+kejia_001355	zh yue
+kejia_001468	other
+kejia_002017	zh yue
+kejia_000854	zh xinan
+kejia_000355	zh min
+kejia_001743	zh yue
+kejia_000948	zh yue
+kejia_000308	zh yue
+kejia_000356	zh yue
+kejia_000370	zh yue
+kejia_000658	zh yue
+kejia_000508	zh yue
+kejia_000192	zh yue
+kejia_000009	zh min
+kejia_000384	zh yue
+kejia_002064	other
+kejia_001464	zh yue
+kejia_000049	zh yue
+kejia_001389	zh yue
+kejia_001787	zh yue
+kejia_001774	zh yue
+kejia_001100	zh yue
+kejia_001383	other
+kejia_000112	zh yue
+kejia_000616	gn
+kejia_001586	zh min
+kejia_001830	zh yue
+kejia_001184	zh min
+kejia_001675	vi
+kejia_001071	zh yue
+kejia_000791	other
+kejia_000448	zh yue
+kejia_000450	zh wu
+kejia_000269	zh min
+kejia_001288	zh min
+kejia_000719	zh yue
+kejia_001315	zh yue
+kejia_002057	lo
+kejia_000217	zh yue
+kejia_001862	zh xinan
+kejia_001179	zh yue
+kejia_001322	zh north
+kejia_000029	zh min
+kejia_001644	other
+kejia_000058	zh yue
+kejia_000565	other
+kejia_001973	zh yue
+kejia_001603	other
+kejia_000858	zh xiang
+kejia_000254	zh yue
+kejia_000808	zh min
+kejia_001718	zh min
+kejia_001553	zh min
+kejia_000127	zh yue
+kejia_001436	zh yue
+kejia_001657	vi
+kejia_000515	zh yue
+kejia_000787	zh yue
+kejia_000483	zh yue
+kejia_001668	zh yue
+kejia_000193	zh yue
+kejia_001597	other
+kejia_001062	zh yue
+kejia_000592	zh min
+kejia_001958	th
+kejia_001199	other
+kejia_000803	zh yue
+kejia_001249	zh yue
+kejia_001409	zh xiang
+kejia_000530	zh yue
+kejia_001435	zh xinan
+kejia_001394	zh yue
+kejia_000489	zh min
+kejia_001838	other
+kejia_000330	zh yue
+kejia_001879	zh yue
+kejia_001630	zh yue
+kejia_000271	other
+kejia_001209	zh min
+kejia_001310	lo
+kejia_001497	zh min
+kejia_000462	zh xinan
+kejia_001495	other
+kejia_000550	zh yue
+kejia_000457	zh min
+kejia_000381	zh xinan
+kejia_000289	zh yue
+kejia_001710	zh yue
+kejia_000976	zh yue
+kejia_001334	zh yue
+kejia_000006	zh min
+kejia_002053	lo
+kejia_000432	zh yue
+kejia_001976	zh yue
+kejia_000421	zh yue
+kejia_001105	zh min
+kejia_000285	zh yue
+kejia_001353	vi
+kejia_001224	zh north
+kejia_001265	other
+kejia_001440	zh min
+kejia_001841	my
+kejia_000070	other
+kejia_001141	zh yue
+kejia_000929	other
+kejia_000305	zh yue
+kejia_001522	zh yue
+kejia_000705	zh xinan
+kejia_000264	zh yue
+kejia_000461	ht
+kejia_001519	zh yue
+kejia_000527	zh yue
+kejia_001524	zh min
+kejia_001461	zh yue
+kejia_001072	other
+kejia_000032	zh yue
+kejia_001324	zh wu
+kejia_001742	zh yue
+kejia_001479	other
+kejia_000416	zh yue
+kejia_001178	zh yue
+kejia_000689	zh yue
+kejia_001582	zh yue
+kejia_000682	zh yue
+kejia_001983	zh yue
+kejia_000821	vi
+kejia_000979	zh min
+kejia_000503	yo
+kejia_000124	zh yue
+kejia_001654	zh xinan
+kejia_001159	zh mandarin
+kejia_001046	zh yue
+kejia_000155	th
+kejia_000599	zh min
+kejia_001871	zh yue
+kejia_001922	zh min
+kejia_000742	zh yue
+kejia_000562	zh yue
+kejia_001990	ja
+kejia_000046	fa
+kejia_001875	yo
+kejia_001127	zh yue
+kejia_000246	th
+kejia_001757	zh yue
+kejia_000717	zh xinan
+kejia_000925	zh yue
+kejia_001235	zh yue
+kejia_001226	zh yue
+kejia_001299	zh yue
+kejia_000443	zh min
+kejia_001051	zh yue
+kejia_001878	zh yue
+kejia_000853	zh yue
+kejia_001420	zh yue
+kejia_001727	zh min
+kejia_000957	zh yue
+kejia_001047	zh yue
+kejia_000930	zh yue
+kejia_001847	zh yue
+kejia_000081	zh yue
+kejia_001628	zh yue
+kejia_000353	zh yue
+kejia_000561	zh yue
+kejia_000171	zh yue
+kejia_000239	zh yue
+kejia_001571	zh min
+kejia_001633	zh yue
+kejia_000477	zh yue
+kejia_000712	zh yue
+kejia_002034	zh yue
+kejia_000848	zh yue
+kejia_001007	zh min
+kejia_000003	ceb
+kejia_001459	zh yue
+kejia_001625	zh yue
+kejia_001538	zh min
+kejia_000051	zh yue
+kejia_001320	other
+kejia_000385	pt
+kejia_000888	vi
+kejia_000619	other
+kejia_000952	zh yue
+kejia_001421	zh yue
+kejia_000110	zh yue
+kejia_000317	zh yue
+kejia_000429	zh yue
+kejia_001660	zh yue
+kejia_000083	th
+kejia_001342	zh yue
+kejia_001951	zh yue
+kejia_001855	zh yue
+kejia_000240	zh yue
+kejia_001195	zh yue
+kejia_001228	zh min
+kejia_000870	zh yue
+kejia_000460	zh yue
+kejia_000913	zh yue
+kejia_000120	other
+kejia_001886	vi
+kejia_000963	zh yue
+kejia_000321	zh min
+kejia_001158	zh xinan
+kejia_001626	zh yue
+kejia_000731	zh yue
+kejia_001203	zh yue
+kejia_000336	zh min
+kejia_001271	zh yue
+kejia_000320	other
+kejia_001536	zh yue
+kejia_001386	zh yue
+kejia_001232	zh yue
+kejia_001119	other
+kejia_001968	other
+kejia_000574	zh yue
+kejia_000399	zh yue
+kejia_000454	zh yue
+kejia_000220	zh yue
+kejia_000388	zh yue
+kejia_000541	zh yue
+kejia_001563	zh yue
+kejia_001494	zh yue
+kejia_000960	zh min
+kejia_001623	zh yue
+kejia_000303	zh yue
+kejia_000789	zh yue
+kejia_001627	zh yue
+kejia_000290	other
+kejia_000121	other
+kejia_000780	zh min
+kejia_000451	other
+kejia_000476	other
+kejia_000128	zh yue
+kejia_000026	km
+kejia_001244	zh yue
+kejia_000427	zh min
+kejia_001081	zh yue
+kejia_000359	my
+kejia_001835	zh yue
+kejia_000547	other
+kejia_000624	other
+kejia_001068	zh min
+kejia_000815	zh min
+kejia_001512	other
+kejia_001730	zh yue
+kejia_001319	zh yue
+kejia_001167	zh yue
+kejia_001648	zh min
+kejia_000946	zh yue
+kejia_000533	zh yue
+kejia_000076	zh yue
+kejia_000067	zh min
+kejia_001500	zh yue
+kejia_001194	zh yue
+kejia_000901	zh yue
+kejia_001373	zh yue
+kejia_001703	zh yue
+kejia_001093	zh xinan
+kejia_000539	zh min
+kejia_000978	zh yue
+kejia_000125	zh yue
+kejia_001771	zh yue
+kejia_001667	zh yue
+kejia_000633	zh min
+kejia_000756	zh min
+kejia_000642	zh yue
+kejia_001696	other
+kejia_001419	zh yue
+kejia_001681	lo
+kejia_001567	zh yue
+kejia_000188	zh yue
+kejia_001303	zh yue
+kejia_000297	zh yue
+kejia_001264	other
+kejia_001469	zh yue
+kejia_000985	vi
+kejia_000548	zh yue
+kejia_001659	zh yue
+kejia_001651	zh min
+kejia_000666	zh yue
+kejia_001451	zh yue
+kejia_000660	zh yue
+kejia_002051	zh yue
+kejia_001786	zh yue
+kejia_002025	other
+kejia_001740	zh yue
+kejia_001010	zh min
+kejia_001361	zh yue
+kejia_001212	zh yue
+kejia_000424	zh yue
+kejia_000692	zh yue
+kejia_001612	zh min
+kejia_001849	zh yue
+kejia_000768	zh yue
+kejia_001351	zh yue
+kejia_001850	zh min
+kejia_001193	zh yue
+kejia_000481	other
+kejia_000133	zh yue
+kejia_000653	zh yue
+kejia_000405	zh yue
+kejia_001539	my
+kejia_000879	zh yue
+kejia_001868	other
+kejia_000165	ja
+kejia_002063	zh min
+kejia_001057	zh yue
+kejia_000103	other
+kejia_001400	zh yue
+kejia_000351	lo
+kejia_001679	zh yue
+kejia_000087	lo
+kejia_000378	zh min
+kejia_000493	zh yue
+kejia_000360	zh yue
+kejia_001510	zh yue
+kejia_001578	vi
+kejia_000839	zh north
+kejia_001869	zh yue
+kejia_000873	vi
+kejia_000918	zh yue
+kejia_000453	zh yue
+kejia_000908	zh xiang
+kejia_000517	zh yue
+kejia_001110	zh min
+kejia_001015	zh yue
+kejia_001724	th
+kejia_001663	zh yue
+kejia_001988	lo
+kejia_000027	zh yue
+kejia_001503	zh yue
+kejia_000352	zh yue
+kejia_001893	zh yue
+kejia_000277	zh yue
+kejia_000145	zh yue
+kejia_000472	zh north
+kejia_001545	zh mandarin
+kejia_001762	zh yue
+kejia_001941	zh yue
+kejia_001287	other
+kejia_001882	zh yue
+kejia_001465	other
+kejia_000697	zh yue
+kejia_001404	zh min
+kejia_000434	zh yue
+kejia_000234	zh yue
+kejia_001120	zh yue
+kejia_000402	zh yue
+kejia_001041	zh yue
+kejia_001755	zh yue
+kejia_000245	zh yue
+kejia_000678	zh yue
+kejia_001944	other
+kejia_000861	zh yue
+kejia_000367	zh yue
+kejia_001969	zh yue
+kejia_001936	zh yue
+kejia_001940	zh min
+kejia_001344	zh xinan
+kejia_000199	zh yue
+kejia_000208	zh yue
+kejia_000938	zh yue
+kejia_000600	zh min
+kejia_001277	zh north
+kejia_001113	zh yue
+kejia_000144	zh yue
+kejia_000778	zh yue
+kejia_001410	zh yue
+kejia_001356	zh yue
+kejia_001784	zh yue
+kejia_000123	zh yue
+kejia_001521	zh yue
+kejia_001073	zh yue
+kejia_002032	zh yue
+kejia_001697	zh yue
+kejia_002003	zh yue
+kejia_000008	fa
+kejia_000060	zh yue
+kejia_001859	zh yue
+kejia_001806	zh min
+kejia_001546	zh yue
+kejia_000623	zh yue
+kejia_000544	th
+kejia_001731	zh xinan
+kejia_000962	zh yue
+kejia_000307	zh xiang
+kejia_002027	zh yue
+kejia_000341	other
+kejia_001726	zh yue
+kejia_001109	zh yue
+kejia_001484	other
+kejia_001261	zh yue
+kejia_000891	zh yue
+kejia_000238	zh min
+kejia_002044	zh yue
+kejia_001997	zh yue
+kejia_000932	zh mandarin
+kejia_000150	zh yue
+kejia_000022	zh min
+kejia_001751	zh yue
+kejia_000741	zh north
+kejia_001230	other
+kejia_000068	zh min
+kejia_000943	zh yue
+kejia_000196	zh min
+kejia_001302	zh yue
+kejia_000683	zh min
+kejia_000799	zh yue
+kejia_000211	zh yue
+kejia_000710	zh min
+kejia_000349	zh yue
+kejia_000867	zh yue
+kejia_001641	other
+kejia_001926	zh north
+kejia_001588	zh yue
+kejia_001927	zh yue
+kejia_001279	other
+kejia_000272	zh yue
+kejia_001699	other
+kejia_000850	zh yue
+kejia_001272	zh xiang
+kejia_000314	zh min
+kejia_001481	zh min
+kejia_000426	zh xiang
+kejia_001370	zh yue
+kejia_000753	zh yue
+kejia_000396	zh yue
+kejia_000523	other
+kejia_001292	zh yue
+kejia_000809	zh yue
+kejia_000700	zh yue
+kejia_001438	other
+kejia_001796	zh min
+kejia_000847	zh min
+kejia_000486	zh yue
+kejia_000078	zh min
+kejia_000447	other
+kejia_001772	zh min
+kejia_000555	zh yue
+kejia_001561	zh yue
+kejia_000408	zh yue
+kejia_000347	zh yue
+kejia_000825	zh yue
+kejia_001923	zh yue
+kejia_000468	zh yue
+kejia_001665	zh yue
+kejia_001509	zh yue

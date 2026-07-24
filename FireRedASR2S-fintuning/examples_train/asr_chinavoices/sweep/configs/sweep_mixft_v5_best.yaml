@@ -1,0 +1,110 @@
+## 工具结果 - 新建 sweep_mixft_v5_best.yaml
+# ============================================================================
+# ASR 微调 · 使用 data_mixft_v5（多源混合训练集）+ 最优超参 单次训练+评估
+# ---------------------------------------------------------------------------
+# 目的：在 sweep 框架下用"每维度单候选"的方式，直接跑一次完整训练+推理+CER 评估，
+#      对比 sweep_example.yaml 在 VC_data_v2 上跑出的 11.53% overall CER。
+#
+# 关键差异（相对 sweep_example.yaml）：
+#   - train_jsonl 换成 data_mixft_v5 转换后的 VC 格式文件（约 35 万条）
+#   - val_jsonl / test_jsonl 保持不变（同评估口径，直接可对比）
+#   - baseline_hparams 全部固化为 sweep_example.yaml 的胜出值：
+#       encoder_lr=1e-5, decoder_lr=1e-5, ctc_weight=0.3,
+#       label_smoothing=0.05, warmup_steps=1000
+#   - epochs 从 10 缩短为 4（数据量 ×2.55，等效样本量已翻倍多）
+#   - sweep_space 每维度只放 baseline 一个值 → skipped=True，
+#     只在维度 01 跑 1 次训练（其它维度 reuse 上一维 winner，不重复训练）
+#
+# 预计训练开销：
+#   VC_data_v2（137k）@ 10 epoch ≈ 2h15m；
+#   mix_v5   （350k）@  4 epoch ≈ 350k/137k × 4/10 × 2h15m ≈ 2h18m
+#
+# 生效范围：本 YAML 仅供一键脚本 run_finetune_mixft_v5_best.sh 使用，
+#          不覆盖 sweep_example.yaml / sweep_dryrun.yaml。
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# 1. 数据与外部工具路径
+# ---------------------------------------------------------------------------
+data_paths:
+  # 训练集：由 tools/convert_mixft_v5_to_vc_format.py 转换 data_mixft_v5/train.jsonl 得到
+  train_jsonl: /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_mixft_v5/data_train_vc.jsonl
+  # 验证集：为保持评估口径与 sweep_example.yaml 完全一致，沿用 VC_data_v2/val
+  val_jsonl:   /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_val_vc.jsonl
+  # 外部 test 集：与 sweep_example.yaml 完全一致
+  test_jsonl:  /mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_ichiwang/data/challenge_data_speaker/data_test.jsonl
+
+pretrained_model_dir: /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/pretrained_models/FireRedASR2-AED
+
+format_script: /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/exp/asr_chinavoices_vc/format_pred_jsonl.py
+
+eval_tool_sh: /mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_johannapeng/ChinaVoices-Challenge/eval/eval_jsonl_with_wer_tools.sh
+
+# ---------------------------------------------------------------------------
+# 2. Baseline 超参（= sweep_example.yaml 最终胜出组合）
+# ---------------------------------------------------------------------------
+baseline_hparams:
+  encoder_lr: 1.0e-5       # 从 5e-6 提到 1e-5（sweep 维度 01 胜出）
+  decoder_lr: 1.0e-5
+  ctc_weight: 0.3
+  label_smoothing: 0.05    # 从 0.1 降到 0.05（sweep 维度 04 胜出）
+  warmup_steps: 1000
+
+  # === 固定超参 ===
+  epochs: 4                # 关键：由 10 缩短到 4（数据量 ×2.55，等效样本量已翻倍多）
+  batch_size: 4
+  grad_accum_steps: 8
+  num_workers: 4
+  weight_decay: 1.0e-2
+  grad_clip: 5.0
+  max_input_frames: 6000
+  max_target_length: 256
+  use_amp: 1
+  save_optimizer: 1
+  seed: 1337
+  log_interval: 100
+
+# ---------------------------------------------------------------------------
+# 3. 扫描顺序：仍保留 5 维度以复用 sweep pipeline，但每维度只放 baseline 值
+# ---------------------------------------------------------------------------
+sweep_order:
+  - encoder_lr
+  - decoder_lr
+  - ctc_weight
+  - label_smoothing
+  - warmup_steps
+
+# ---------------------------------------------------------------------------
+# 4. 扫描空间：每维度 1 个候选（= 当前 baseline）
+#    - 维度 01 会真正训练 1 次；维度 02~05 触发 reuse，不重复训练
+#    - 总训练次数：1；总耗时 ≈ 单次 train + 单次 decode + 单次 eval
+# ---------------------------------------------------------------------------
+sweep_space:
+  encoder_lr:      [1.0e-5]
+  decoder_lr:      [1.0e-5]
+  ctc_weight:      [0.3]
+  label_smoothing: [0.05]
+  warmup_steps:    [1000]
+
+# ---------------------------------------------------------------------------
+# 5. 推理参数：与 sweep_example.yaml 完全一致（保证同口径对比）
+# ---------------------------------------------------------------------------
+infer_args:
+  gpu_ids: all
+  batch_size: 16
+  use_half: true
+  beam_size: 3
+  decode_max_len: 300
+  softmax_smoothing: 1.25
+  length_penalty: 0.6
+  eos_penalty: 1.0
+  log_interval: 20
+
+# ---------------------------------------------------------------------------
+# 6. 运行选项
+# ---------------------------------------------------------------------------
+run_options:
+  base_output_dir: ./exp
+  sweep_dir_prefix: asr_mixft_v5_best
+  keep_only_best_ckpt: true
+  nproc_per_node: 8

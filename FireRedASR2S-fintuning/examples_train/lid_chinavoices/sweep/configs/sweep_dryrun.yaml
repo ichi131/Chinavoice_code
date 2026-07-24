@@ -1,0 +1,58 @@
+# ============================================================================
+# LID 扫描 · 轻量 dry-run 配置
+# ---------------------------------------------------------------------------
+# 用途：最小成本地验证整条扫描流水线是否可跑通，仅需 1 张 GPU、极短时间。
+#
+# 特点：
+# - 每个维度只保留 1 个候选值 → 21 次实验减少为 7 次（且都会被跳过扫描直接固化）
+# - epochs=1, patience=1 → 单次训练时间最短
+# - warmup_steps=0 → 避免长 warmup
+#
+# 用法：
+#   CUDA_VISIBLE_DEVICES=0 \
+#   SWEEP_CONFIG=examples_train/lid_chinavoices/sweep/configs/sweep_dryrun.yaml \
+#     bash examples_train/lid_chinavoices/sweep/run_sweep_lid_chinavoices.sh
+# ============================================================================
+
+fixed_params:
+  train_jsonl: /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_train_vc.jsonl
+  val_jsonl: /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_val_vc.jsonl
+  test_jsonl: /mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_ichiwang/data/challenge_data_speaker/data_test.jsonl
+  pretrained_model_dir: /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/pretrained_models/FireRedLID
+  num_workers: 2
+  use_amp: 1
+  log_interval: 20
+
+baseline:
+  lr: 1.0e-3
+  encoder_lr: 1.0e-5
+  batch_size: 16          # 更小 batch 减少显存与 IO 时间
+  dropout: 0.2
+  weight_decay: 1.0e-5
+  label_smoothing: 0.05
+  seed: 1337
+  grad_clip: 1.0
+  warmup_steps: 0
+  epochs: 1               # 单 epoch 快速验证
+  patience: 1
+  min_delta: 0.001
+  freeze_encoder: 1       # 冻结 encoder 只训分类头，训练更快
+
+sweep_order:
+  - lr
+
+# 所有维度只有 1 个候选：sweep_main 会跳过扫描直接固化
+sweep_space:
+  lr: [1.0e-3]
+  encoder_lr: [1.0e-5]
+  batch_size: [16]
+  dropout: [0.2]
+  weight_decay: [1.0e-5]
+  label_smoothing: [0.05]
+  seed: [1337]
+
+run_options:
+  base_output_dir: ./exp
+  sweep_dir_prefix: lid_sweep_dryrun
+  keep_only_best_ckpt: true
+  min_acc_warning_threshold: 0.0625

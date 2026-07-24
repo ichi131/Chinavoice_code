@@ -1,0 +1,2781 @@
+anhui_001379	other
+anhui_001660	zh north
+anhui_000549	other
+anhui_002686	other
+anhui_000565	other
+anhui_000601	other
+anhui_001728	other
+anhui_002543	other
+anhui_002200	zh xiang
+anhui_002042	zh mandarin
+anhui_000200	zh xiang
+anhui_001592	other
+anhui_000849	zh mandarin
+anhui_002257	other
+anhui_001914	other
+anhui_002581	zh xiang
+anhui_000180	other
+anhui_000128	other
+anhui_002360	other
+anhui_001544	other
+anhui_001669	other
+anhui_002512	other
+anhui_001417	other
+anhui_001622	other
+anhui_001777	other
+anhui_000931	other
+anhui_000581	zh mandarin
+anhui_002535	other
+anhui_000609	other
+anhui_002575	zh north
+anhui_002623	other
+anhui_002089	other
+anhui_002571	other
+anhui_002570	other
+anhui_001577	zh wu
+anhui_002531	other
+anhui_000771	zh mandarin
+anhui_000220	other
+anhui_002657	zh mandarin
+anhui_000703	zh xinan
+anhui_001495	other
+anhui_002136	other
+anhui_001439	other
+anhui_000967	zh mandarin
+anhui_001335	other
+anhui_001959	zh north
+anhui_001774	other
+anhui_000253	other
+anhui_001461	other
+anhui_000526	other
+anhui_000470	other
+anhui_001877	other
+anhui_000805	other
+anhui_001949	zh mandarin
+anhui_001345	other
+anhui_000859	other
+anhui_001520	other
+anhui_001508	zh mandarin
+anhui_000827	zh xiang
+anhui_000137	other
+anhui_001192	other
+anhui_001237	other
+anhui_001282	zh mandarin
+anhui_001160	other
+anhui_000729	other
+anhui_001198	other
+anhui_000613	zh mandarin
+anhui_002269	other
+anhui_001473	other
+anhui_000078	other
+anhui_001202	zh xiang
+anhui_000396	other
+anhui_001972	other
+anhui_001259	other
+anhui_001121	other
+anhui_002426	other
+anhui_001225	other
+anhui_001506	other
+anhui_001573	other
+anhui_001183	other
+anhui_001759	other
+anhui_002363	other
+anhui_000546	other
+anhui_002088	other
+anhui_000293	other
+anhui_000242	zh north
+anhui_001848	other
+anhui_000241	other
+anhui_002310	other
+anhui_001116	other
+anhui_000333	other
+anhui_002472	other
+anhui_000464	other
+anhui_000433	other
+anhui_001907	other
+anhui_000320	zh north
+anhui_001605	other
+anhui_002106	other
+anhui_000201	other
+anhui_002766	other
+anhui_000458	other
+anhui_001294	other
+anhui_001393	zh wu
+anhui_002761	other
+anhui_000885	other
+anhui_001037	other
+anhui_001977	other
+anhui_001238	other
+anhui_000058	other
+anhui_000822	other
+anhui_001332	other
+anhui_001871	zh north
+anhui_001994	other
+anhui_000296	other
+anhui_001613	other
+anhui_001032	other
+anhui_001717	other
+anhui_000714	other
+anhui_002311	zh north
+anhui_000998	other
+anhui_000953	zh mandarin
+anhui_002770	other
+anhui_000461	other
+anhui_001048	other
+anhui_001740	other
+anhui_002078	other
+anhui_000555	other
+anhui_000051	other
+anhui_001085	other
+anhui_000184	other
+anhui_001430	other
+anhui_002617	zh xiang
+anhui_002211	other
+anhui_000993	zh xiang
+anhui_000877	other
+anhui_000238	other
+anhui_002240	other
+anhui_000568	other
+anhui_002291	zh north
+anhui_001336	zh mandarin
+anhui_000675	other
+anhui_000418	other
+anhui_002075	other
+anhui_000077	other
+anhui_001108	other
+anhui_001943	other
+anhui_000364	other
+anhui_000264	zh mandarin
+anhui_000656	other
+anhui_001008	zh wu
+anhui_001779	zh xiang
+anhui_000288	other
+anhui_000493	other
+anhui_000160	other
+anhui_000376	other
+anhui_002506	other
+anhui_000918	other
+anhui_002629	other
+anhui_000841	other
+anhui_002346	other
+anhui_002666	other
+anhui_000806	other
+anhui_002649	other
+anhui_000489	other
+anhui_002456	other
+anhui_002573	other
+anhui_001260	zh wu
+anhui_000487	other
+anhui_000763	zh mandarin
+anhui_002386	other
+anhui_000878	other
+anhui_002775	other
+anhui_000751	other
+anhui_001265	other
+anhui_000884	other
+anhui_000124	other
+anhui_000279	zh mandarin
+anhui_001436	other
+anhui_002659	other
+anhui_001493	other
+anhui_000313	other
+anhui_000584	zh north
+anhui_002377	other
+anhui_001645	zh mandarin
+anhui_002470	other
+anhui_001534	other
+anhui_001133	other
+anhui_002460	other
+anhui_002207	other
+anhui_001809	other
+anhui_002112	zh wu
+anhui_001971	other
+anhui_002252	other
+anhui_001088	other
+anhui_002591	other
+anhui_000647	other
+anhui_000511	other
+anhui_000578	other
+anhui_001632	other
+anhui_000525	other
+anhui_001475	other
+anhui_001387	other
+anhui_002315	other
+anhui_000130	other
+anhui_002302	zh wu
+anhui_000216	other
+anhui_002038	zh north
+anhui_001668	other
+anhui_002753	other
+anhui_001148	other
+anhui_000541	other
+anhui_000865	other
+anhui_001942	other
+anhui_000612	other
+anhui_001189	other
+anhui_000982	other
+anhui_000631	other
+anhui_000846	zh north
+anhui_001830	other
+anhui_001385	zh mandarin
+anhui_000673	other
+anhui_001467	other
+anhui_000563	other
+anhui_001424	other
+anhui_002558	zh xiang
+anhui_002697	other
+anhui_002129	other
+anhui_002492	other
+anhui_000767	other
+anhui_001028	other
+anhui_002644	other
+anhui_001663	other
+anhui_001485	zh north
+anhui_002642	other
+anhui_001950	other
+anhui_001286	other
+anhui_002111	other
+anhui_001609	zh mandarin
+anhui_001642	other
+anhui_000528	other
+anhui_001695	other
+anhui_002709	other
+anhui_001927	zh mandarin
+anhui_000148	zh north
+anhui_001422	other
+anhui_002059	zh mandarin
+anhui_000299	other
+anhui_000349	other
+anhui_001542	other
+anhui_002534	zh mandarin
+anhui_002073	other
+anhui_001364	other
+anhui_000604	other
+anhui_000807	other
+anhui_002203	zh north
+anhui_000036	other
+anhui_001187	other
+anhui_001018	other
+anhui_001980	other
+anhui_000127	other
+anhui_001465	zh mandarin
+anhui_001407	other
+anhui_000009	other
+anhui_001029	other
+anhui_002577	other
+anhui_001411	other
+anhui_002389	other
+anhui_000482	other
+anhui_002299	other
+anhui_002380	other
+anhui_001363	zh mandarin
+anhui_000335	other
+anhui_000683	zh yue
+anhui_002502	other
+anhui_000621	other
+anhui_001310	other
+anhui_000753	other
+anhui_000012	other
+anhui_001563	zh mandarin
+anhui_002433	other
+anhui_000929	zh north
+anhui_002037	other
+anhui_001328	zh mandarin
+anhui_001619	other
+anhui_000057	other
+anhui_000410	other
+anhui_000682	other
+anhui_001931	other
+anhui_002435	other
+anhui_000304	zh mandarin
+anhui_000701	other
+anhui_000052	other
+anhui_001501	other
+anhui_001330	other
+anhui_001181	other
+anhui_000879	other
+anhui_000359	other
+anhui_000747	zh north
+anhui_001888	other
+anhui_000462	other
+anhui_002593	other
+anhui_000886	zh north
+anhui_000522	other
+anhui_001291	other
+anhui_001839	other
+anhui_002667	zh mandarin
+anhui_001251	zh north
+anhui_002189	other
+anhui_002459	other
+anhui_000516	other
+anhui_001783	other
+anhui_001159	other
+anhui_001314	other
+anhui_001550	other
+anhui_000625	other
+anhui_000728	other
+anhui_002727	other
+anhui_001039	other
+anhui_002487	other
+anhui_002138	other
+anhui_000423	other
+anhui_000384	zh north
+anhui_001537	other
+anhui_000538	other
+anhui_002012	other
+anhui_001674	other
+anhui_000923	other
+anhui_002585	other
+anhui_001523	other
+anhui_000437	other
+anhui_002415	other
+anhui_002331	zh north
+anhui_001047	zh mandarin
+anhui_001782	other
+anhui_001404	other
+anhui_000152	zh mandarin
+anhui_001353	zh mandarin
+anhui_000688	other
+anhui_000840	other
+anhui_000784	zh mandarin
+anhui_001925	other
+anhui_000417	other
+anhui_001406	other
+anhui_000219	other
+anhui_000244	zh north
+anhui_000871	other
+anhui_000569	other
+anhui_002108	other
+anhui_000733	other
+anhui_000039	other
+anhui_000151	other
+anhui_001561	other
+anhui_000198	other
+anhui_002052	zh mandarin
+anhui_002272	other
+anhui_000251	other
+anhui_001529	other
+anhui_001644	other
+anhui_001829	other
+anhui_002255	other
+anhui_001423	other
+anhui_000459	other
+anhui_001102	other
+anhui_002671	other
+anhui_002478	other
+anhui_001828	other
+anhui_002183	zh mandarin
+anhui_001585	other
+anhui_001734	other
+anhui_002026	other
+anhui_001127	other
+anhui_001484	zh north
+anhui_001629	other
+anhui_000793	zh xiang
+anhui_002399	other
+anhui_000049	zh xiang
+anhui_001321	other
+anhui_001077	other
+anhui_001064	other
+anhui_002500	other
+anhui_001996	other
+anhui_002669	zh mandarin
+anhui_002685	other
+anhui_002409	other
+anhui_001618	other
+anhui_002039	zh mandarin
+anhui_001786	other
+anhui_000795	other
+anhui_001843	zh xiang
+anhui_001678	other
+anhui_002439	zh xiang
+anhui_002485	other
+anhui_001347	zh mandarin
+anhui_002412	other
+anhui_001800	other
+anhui_000976	other
+anhui_002050	other
+anhui_002513	other
+anhui_001716	zh north
+anhui_002383	other
+anhui_000518	zh xiang
+anhui_000960	other
+anhui_000764	other
+anhui_001658	other
+anhui_001200	other
+anhui_000623	other
+anhui_001758	other
+anhui_001748	other
+anhui_002453	other
+anhui_000920	other
+anhui_000468	zh north
+anhui_002105	other
+anhui_000858	other
+anhui_002139	other
+anhui_000014	other
+anhui_000943	other
+anhui_002396	zh north
+anhui_000345	other
+anhui_001580	other
+anhui_000185	other
+anhui_000439	other
+anhui_001574	other
+anhui_000114	other
+anhui_000742	zh xiang
+anhui_002233	zh mandarin
+anhui_000774	other
+anhui_001185	other
+anhui_002330	other
+anhui_000666	other
+anhui_000290	other
+anhui_002469	other
+anhui_001230	other
+anhui_001558	other
+anhui_000881	other
+anhui_002014	other
+anhui_001582	zh wu
+anhui_002196	other
+anhui_000891	other
+anhui_000375	other
+anhui_001898	other
+anhui_001567	zh xiang
+anhui_001325	other
+anhui_002489	other
+anhui_001382	other
+anhui_000936	other
+anhui_002681	other
+anhui_002608	other
+anhui_000607	other
+anhui_002652	other
+anhui_000177	other
+anhui_001838	other
+anhui_002719	other
+anhui_001054	other
+anhui_000588	other
+anhui_000544	other
+anhui_002694	other
+anhui_002614	other
+anhui_001731	other
+anhui_001366	other
+anhui_001491	other
+anhui_002588	other
+anhui_002646	other
+anhui_002367	other
+anhui_000343	other
+anhui_000974	other
+anhui_001456	other
+anhui_002674	zh xinan
+anhui_000138	other
+anhui_001309	other
+anhui_000103	other
+anhui_002151	other
+anhui_002095	other
+anhui_002083	other
+anhui_001460	other
+anhui_001938	other
+anhui_002746	other
+anhui_001559	other
+anhui_000104	other
+anhui_000690	other
+anhui_000783	zh mandarin
+anhui_001593	other
+anhui_001566	other
+anhui_002301	other
+anhui_000031	zh north
+anhui_000474	zh mandarin
+anhui_001825	other
+anhui_000240	zh north
+anhui_000310	other
+anhui_001503	other
+anhui_001850	other
+anhui_001292	other
+anhui_001823	other
+anhui_001760	other
+anhui_001086	other
+anhui_000808	other
+anhui_001196	other
+anhui_000640	other
+anhui_000856	other
+anhui_000174	other
+anhui_001399	other
+anhui_000076	other
+anhui_002116	other
+anhui_001324	other
+anhui_002096	other
+anhui_002341	zh mandarin
+anhui_002246	other
+anhui_000876	other
+anhui_002033	other
+anhui_002715	other
+anhui_002702	other
+anhui_001846	zh xiang
+anhui_000599	other
+anhui_000618	other
+anhui_000045	zh mandarin
+anhui_000626	other
+anhui_002653	other
+anhui_001014	zh mandarin
+anhui_001679	other
+anhui_001548	other
+anhui_000425	other
+anhui_000717	other
+anhui_001448	other
+anhui_000624	other
+anhui_000855	other
+anhui_002430	other
+anhui_000064	other
+anhui_002168	other
+anhui_000987	zh mandarin
+anhui_000909	other
+anhui_000654	other
+anhui_000699	other
+anhui_002490	zh north
+anhui_001482	other
+anhui_000255	other
+anhui_000267	other
+anhui_001788	other
+anhui_000500	other
+anhui_001955	other
+anhui_000466	other
+anhui_002668	other
+anhui_000787	other
+anhui_000477	zh north
+anhui_002739	other
+anhui_000263	zh mandarin
+anhui_002754	other
+anhui_000085	other
+anhui_002607	other
+anhui_000590	other
+anhui_001154	other
+anhui_000432	other
+anhui_001277	zh north
+anhui_002194	other
+anhui_000973	other
+anhui_000903	other
+anhui_001688	other
+anhui_000704	other
+anhui_001343	zh wu
+anhui_000451	zh mandarin
+anhui_001867	other
+anhui_000278	other
+anhui_001836	other
+anhui_001879	other
+anhui_001106	other
+anhui_000236	zh mandarin
+anhui_002602	zh north
+anhui_001607	other
+anhui_001970	zh mandarin
+anhui_000632	other
+anhui_001671	other
+anhui_001806	zh north
+anhui_001528	other
+anhui_001819	zh mandarin
+anhui_002682	other
+anhui_002676	other
+anhui_001489	zh xiang
+anhui_001689	other
+anhui_001575	other
+anhui_000442	other
+anhui_001299	other
+anhui_001272	other
+anhui_000113	zh mandarin
+anhui_002276	other
+anhui_000999	zh mandarin
+anhui_000648	other
+anhui_002350	other
+anhui_002505	other
+anhui_000233	other
+anhui_000347	other
+anhui_001118	other
+anhui_002404	other
+anhui_000340	zh mandarin
+anhui_001650	other
+anhui_002249	other
+anhui_000638	other
+anhui_002601	other
+anhui_001541	other
+anhui_002395	other
+anhui_002004	other
+anhui_001778	zh xiang
+anhui_000373	other
+anhui_000741	other
+anhui_002374	other
+anhui_000547	other
+anhui_001137	other
+anhui_001156	other
+anhui_002384	other
+anhui_000634	en
+anhui_000608	other
+anhui_000209	other
+anhui_001327	other
+anhui_002332	other
+anhui_002595	other
+anhui_001903	other
+anhui_000179	other
+anhui_002507	other
+anhui_002232	other
+anhui_001502	other
+anhui_002086	other
+anhui_000246	other
+anhui_001665	other
+anhui_002414	other
+anhui_002625	other
+anhui_001453	zh mandarin
+anhui_001171	zh wu
+anhui_000602	other
+anhui_000582	other
+anhui_000092	other
+anhui_002055	other
+anhui_000723	other
+anhui_001733	other
+anhui_000133	zh mandarin
+anhui_002119	other
+anhui_000155	other
+anhui_000758	other
+anhui_000977	zh mandarin
+anhui_002630	other
+anhui_002087	other
+anhui_001441	other
+anhui_000252	other
+anhui_001188	other
+anhui_002216	other
+anhui_002148	other
+anhui_002777	zh north
+anhui_001026	zh mandarin
+anhui_001956	other
+anhui_001134	zh north
+anhui_001209	other
+anhui_001070	other
+anhui_000819	other
+anhui_001009	zh north
+anhui_002572	other
+anhui_000414	other
+anhui_001428	other
+anhui_002525	zh xinan
+anhui_001357	zh mandarin
+anhui_002382	other
+anhui_002670	other
+anhui_000245	other
+anhui_002479	other
+anhui_002140	other
+anhui_002495	other
+anhui_001525	other
+anhui_000679	other
+anhui_002631	other
+anhui_000250	other
+anhui_002418	other
+anhui_000412	other
+anhui_002187	other
+anhui_002537	zh xiang
+anhui_001023	zh north
+anhui_000257	other
+anhui_001654	other
+anhui_001953	other
+anhui_000952	other
+anhui_002622	zh mandarin
+anhui_001459	other
+anhui_000422	other
+anhui_000812	other
+anhui_001107	other
+anhui_001946	other
+anhui_000597	other
+anhui_002722	other
+anhui_001581	other
+anhui_001683	other
+anhui_001012	other
+anhui_001304	other
+anhui_002387	zh wu
+anhui_001490	other
+anhui_000276	other
+anhui_001554	other
+anhui_002253	zh north
+anhui_000539	other
+anhui_000606	zh north
+anhui_000921	other
+anhui_002551	zh mandarin
+anhui_001043	other
+anhui_002336	zh mandarin
+anhui_002113	other
+anhui_001890	other
+anhui_002047	other
+anhui_000750	other
+anhui_000724	other
+anhui_002006	other
+anhui_001496	other
+anhui_000323	other
+anhui_000732	other
+anhui_001092	other
+anhui_000738	zh north
+anhui_001745	other
+anhui_000081	other
+anhui_000123	other
+anhui_002673	other
+anhui_001113	other
+anhui_000416	other
+anhui_000228	other
+anhui_001965	other
+anhui_000803	other
+anhui_002127	other
+anhui_002285	other
+anhui_002016	other
+anhui_001141	other
+anhui_002528	other
+anhui_002135	other
+anhui_000695	zh xinan
+anhui_002621	other
+anhui_000665	other
+anhui_000899	other
+anhui_000730	other
+anhui_000061	other
+anhui_000765	other
+anhui_002520	other
+anhui_001855	other
+anhui_000745	other
+anhui_000810	other
+anhui_000065	other
+anhui_001586	other
+anhui_001845	other
+anhui_001751	other
+anhui_002268	zh mandarin
+anhui_000028	zh mandarin
+anhui_002375	other
+anhui_002340	other
+anhui_002748	other
+anhui_000710	other
+anhui_000748	other
+anhui_000948	other
+anhui_001111	other
+anhui_000465	other
+anhui_001034	other
+anhui_001450	other
+anhui_002725	other
+anhui_001866	other
+anhui_000300	other
+anhui_000508	other
+anhui_002488	other
+anhui_001913	other
+anhui_002408	other
+anhui_001749	other
+anhui_001641	other
+anhui_000480	other
+anhui_001395	other
+anhui_001662	other
+anhui_001713	other
+anhui_000684	other
+anhui_001140	other
+anhui_002354	other
+anhui_000382	other
+anhui_002134	other
+anhui_002126	other
+anhui_000561	other
+anhui_001211	zh mandarin
+anhui_002293	other
+anhui_002013	zh north
+anhui_002317	other
+anhui_001164	other
+anhui_002074	other
+anhui_001030	other
+anhui_000411	other
+anhui_000071	other
+anhui_002454	other
+anhui_001479	other
+anhui_000820	other
+anhui_001512	other
+anhui_001511	other
+anhui_001151	zh north
+anhui_001883	other
+anhui_002616	other
+anhui_001499	zh mandarin
+anhui_001340	other
+anhui_002721	other
+anhui_002289	zh north
+anhui_002220	other
+anhui_002425	other
+anhui_001145	other
+anhui_000270	other
+anhui_000041	other
+anhui_001916	other
+anhui_001905	other
+anhui_000746	other
+anhui_002764	zh north
+anhui_000514	other
+anhui_002262	other
+anhui_000658	zh mandarin
+anhui_001413	other
+anhui_001900	other
+anhui_001210	other
+anhui_002599	other
+anhui_000207	other
+anhui_000479	other
+anhui_002115	other
+anhui_001693	other
+anhui_002747	zh north
+anhui_002335	other
+anhui_001869	other
+anhui_000471	zh north
+anhui_002605	other
+anhui_002574	other
+anhui_001922	other
+anhui_001372	other
+anhui_000791	zh mandarin
+anhui_000112	other
+anhui_002576	other
+anhui_000197	other
+anhui_000883	other
+anhui_002579	other
+anhui_002511	other
+anhui_002219	other
+anhui_000799	other
+anhui_000415	other
+anhui_000289	zh xiang
+anhui_001680	other
+anhui_002008	other
+anhui_002776	other
+anhui_002023	zh mandarin
+anhui_001887	other
+anhui_002180	other
+anhui_001630	zh north
+anhui_002517	zh north
+anhui_002351	other
+anhui_000068	other
+anhui_002186	other
+anhui_001742	zh north
+anhui_000667	other
+anhui_000083	other
+anhui_000431	other
+anhui_000190	other
+anhui_001539	zh xiang
+anhui_002120	other
+anhui_000379	other
+anhui_000535	zh xiang
+anhui_001421	other
+anhui_001570	other
+anhui_001268	other
+anhui_002092	zh north
+anhui_000395	other
+anhui_002070	other
+anhui_000579	other
+anhui_000067	other
+anhui_000496	other
+anhui_000678	other
+anhui_000003	zh xiang
+anhui_002619	other
+anhui_001557	other
+anhui_002192	other
+anhui_000042	other
+anhui_000426	other
+anhui_001730	other
+anhui_001676	other
+anhui_000700	other
+anhui_001939	zh mandarin
+anhui_002003	zh north
+anhui_000136	other
+anhui_000326	other
+anhui_002230	other
+anhui_001811	other
+anhui_001427	other
+anhui_001462	other
+anhui_002406	other
+anhui_000283	other
+anhui_002198	other
+anhui_001497	other
+anhui_001228	zh mandarin
+anhui_001594	other
+anhui_000686	other
+anhui_001105	zh mandarin
+anhui_001990	zh north
+anhui_001027	other
+anhui_000636	zh xiang
+anhui_002225	zh xiang
+anhui_000105	zh north
+anhui_000311	zh mandarin
+anhui_001832	other
+anhui_002258	other
+anhui_001478	other
+anhui_000922	other
+anhui_002222	other
+anhui_001547	other
+anhui_000285	zh mandarin
+anhui_001358	other
+anhui_001281	other
+anhui_000164	other
+anhui_002562	other
+anhui_000842	other
+anhui_001042	other
+anhui_000401	zh north
+anhui_001172	zh mandarin
+anhui_000346	other
+anhui_001305	other
+anhui_000212	zh north
+anhui_000203	other
+anhui_001021	zh mandarin
+anhui_000760	zh xiang
+anhui_000157	other
+anhui_002097	zh north
+anhui_000932	other
+anhui_001233	zh north
+anhui_001864	other
+anhui_001400	zh mandarin
+anhui_000571	other
+anhui_002529	other
+anhui_001146	zh mandarin
+anhui_000645	other
+anhui_001356	other
+anhui_001454	other
+anhui_001463	other
+anhui_002267	zh mandarin
+anhui_002251	other
+anhui_002530	zh north
+anhui_000232	zh xinan
+anhui_002661	other
+anhui_001394	zh mandarin
+anhui_001910	other
+anhui_001219	other
+anhui_001947	other
+anhui_000905	other
+anhui_002000	other
+anhui_001191	other
+anhui_000353	zh mandarin
+anhui_000352	other
+anhui_002401	other
+anhui_002334	other
+anhui_001546	other
+anhui_000017	other
+anhui_002030	other
+anhui_001492	other
+anhui_000446	other
+anhui_002325	other
+anhui_002443	other
+anhui_001000	other
+anhui_001861	other
+anhui_000159	other
+anhui_002002	other
+anhui_001129	other
+anhui_000785	other
+anhui_002637	zh north
+anhui_001276	other
+anhui_000001	other
+anhui_002155	other
+anhui_001040	other
+anhui_000956	other
+anhui_002239	other
+anhui_000940	other
+anhui_000892	other
+anhui_001240	other
+anhui_000168	zh mandarin
+anhui_000230	other
+anhui_000757	other
+anhui_000562	other
+anhui_001449	other
+anhui_002157	other
+anhui_000591	zh xiang
+anhui_000834	other
+anhui_002578	other
+anhui_002780	other
+anhui_002714	other
+anhui_001948	zh north
+anhui_001755	other
+anhui_000328	other
+anhui_001285	other
+anhui_000596	other
+anhui_000863	other
+anhui_001173	zh north
+anhui_002613	zh north
+anhui_001197	other
+anhui_001063	other
+anhui_002263	other
+anhui_001737	other
+anhui_002429	zh north
+anhui_000558	other
+anhui_001578	other
+anhui_001053	zh mandarin
+anhui_002241	other
+anhui_001142	other
+anhui_001302	other
+anhui_000338	other
+anhui_000399	other
+anhui_000862	other
+anhui_002647	other
+anhui_001120	zh xiang
+anhui_002450	zh mandarin
+anhui_001886	other
+anhui_000435	zh xinan
+anhui_001242	other
+anhui_001426	other
+anhui_002437	other
+anhui_001349	other
+anhui_000116	other
+anhui_001987	other
+anhui_001011	other
+anhui_001633	zh xinan
+anhui_001254	other
+anhui_002067	other
+anhui_001891	other
+anhui_000348	other
+anhui_002064	other
+anhui_001856	other
+anhui_001768	other
+anhui_001701	other
+anhui_001975	other
+anhui_000428	zh mandarin
+anhui_002762	other
+anhui_001637	zh north
+anhui_001123	other
+anhui_002548	other
+anhui_000708	other
+anhui_000392	other
+anhui_000449	other
+anhui_002422	other
+anhui_001920	other
+anhui_000319	other
+anhui_002503	other
+anhui_000274	other
+anhui_001033	other
+anhui_000317	other
+anhui_002684	other
+anhui_001796	other
+anhui_001476	other
+anhui_000262	other
+anhui_000022	other
+anhui_001631	other
+anhui_000550	other
+anhui_001245	other
+anhui_000868	other
+anhui_000217	other
+anhui_000158	other
+anhui_000837	other
+anhui_001591	zh north
+anhui_000486	other
+anhui_001827	other
+anhui_001934	zh north
+anhui_002185	other
+anhui_000129	other
+anhui_000778	zh wu
+anhui_002259	other
+anhui_000663	other
+anhui_000436	other
+anhui_000189	other
+anhui_002633	zh mandarin
+anhui_000332	other
+anhui_002231	other
+anhui_000670	other
+anhui_000851	zh north
+anhui_001337	other
+anhui_000902	zh xiang
+anhui_000611	other
+anhui_001180	other
+anhui_000372	other
+anhui_002539	other
+anhui_000564	other
+anhui_001066	other
+anhui_001458	other
+anhui_000560	other
+anhui_000691	other
+anhui_000809	zh north
+anhui_000165	other
+anhui_002738	other
+anhui_001612	other
+anhui_000193	other
+anhui_000066	other
+anhui_000026	other
+anhui_001801	other
+anhui_000134	other
+anhui_002048	other
+anhui_000832	other
+anhui_000229	other
+anhui_000501	other
+anhui_000657	other
+anhui_002235	other
+anhui_001354	other
+anhui_002041	other
+anhui_002312	zh xiang
+anhui_001246	other
+anhui_000975	other
+anhui_000985	other
+anhui_001813	other
+anhui_000716	other
+anhui_002260	other
+anhui_000988	other
+anhui_002457	other
+anhui_000715	other
+anhui_001812	other
+anhui_000006	other
+anhui_001143	other
+anhui_001545	zh mandarin
+anhui_002728	zh xiang
+anhui_000583	other
+anhui_002058	zh mandarin
+anhui_002745	other
+anhui_002627	other
+anhui_000874	zh north
+anhui_001810	other
+anhui_000845	other
+anhui_001964	other
+anhui_002710	other
+anhui_001081	other
+anhui_000038	other
+anhui_000970	other
+anhui_001895	other
+anhui_002391	zh mandarin
+anhui_000914	other
+anhui_000983	other
+anhui_002025	other
+anhui_000826	zh north
+anhui_000559	other
+anhui_001271	other
+anhui_001204	other
+anhui_001527	other
+anhui_001513	other
+anhui_001906	other
+anhui_000661	other
+anhui_002773	zh mandarin
+anhui_002182	other
+anhui_000222	zh xiang
+anhui_000450	other
+anhui_001405	other
+anhui_001983	other
+anhui_002356	other
+anhui_002206	other
+anhui_001685	other
+anhui_000946	other
+anhui_000766	other
+anhui_002758	fr
+anhui_002165	zh north
+anhui_002447	other
+anhui_001287	zh north
+anhui_000532	other
+anhui_001998	other
+anhui_001355	other
+anhui_000556	zh north
+anhui_002735	other
+anhui_000341	zh mandarin
+anhui_001079	other
+anhui_000483	other
+anhui_002544	other
+anhui_002118	other
+anhui_001306	other
+anhui_001375	other
+anhui_002243	other
+anhui_002533	other
+anhui_002638	other
+anhui_000266	other
+anhui_002110	other
+anhui_001844	other
+anhui_000847	other
+anhui_000034	other
+anhui_002462	zh mandarin
+anhui_002554	other
+anhui_000744	other
+anhui_002778	other
+anhui_000737	zh north
+anhui_001995	other
+anhui_002397	zh north
+anhui_002071	other
+anhui_002065	other
+anhui_002636	zh north
+anhui_000594	other
+anhui_000298	other
+anhui_000749	other
+anhui_002084	other
+anhui_002688	other
+anhui_000054	zh mandarin
+anhui_001710	other
+anhui_000125	other
+anhui_000389	other
+anhui_001726	other
+anhui_000089	other
+anhui_002398	zh north
+anhui_002427	other
+anhui_000680	other
+anhui_000551	other
+anhui_001464	other
+anhui_001100	other
+anhui_000991	other
+anhui_000111	other
+anhui_001093	other
+anhui_001266	other
+anhui_000687	other
+anhui_002691	other
+anhui_002461	other
+anhui_000817	other
+anhui_002628	other
+anhui_002541	other
+anhui_001184	other
+anhui_001909	other
+anhui_000224	other
+anhui_000722	other
+anhui_002732	other
+anhui_001234	zh mandarin
+anhui_001583	other
+anhui_002316	other
+anhui_000782	other
+anhui_000271	other
+anhui_001437	other
+anhui_000261	other
+anhui_002477	other
+anhui_002137	other
+anhui_001901	other
+anhui_002370	zh xinan
+anhui_002434	zh xiang
+anhui_001703	other
+anhui_002683	other
+anhui_001386	other
+anhui_002197	other
+anhui_001974	other
+anhui_001521	other
+anhui_000192	other
+anhui_001213	other
+anhui_001483	zh north
+anhui_001833	other
+anhui_000413	other
+anhui_000161	other
+anhui_000959	other
+anhui_000099	other
+anhui_001438	other
+anhui_001649	other
+anhui_001320	zh mandarin
+anhui_002612	other
+anhui_001236	other
+anhui_000984	zh mandarin
+anhui_000904	other
+anhui_000005	zh xinan
+anhui_000048	other
+anhui_001921	zh xinan
+anhui_001882	zh north
+anhui_001221	other
+anhui_002323	other
+anhui_001690	other
+anhui_001610	other
+anhui_001617	other
+anhui_001220	other
+anhui_000830	zh mandarin
+anhui_001155	zh mandarin
+anhui_000093	other
+anhui_002029	zh xiang
+anhui_002499	other
+anhui_002359	other
+anhui_002369	zh mandarin
+anhui_001696	other
+anhui_002072	other
+anhui_002353	other
+anhui_001653	other
+anhui_001239	other
+anhui_002056	other
+anhui_002741	other
+anhui_001842	other
+anhui_002734	other
+anhui_001416	other
+anhui_002286	other
+anhui_002473	other
+anhui_002280	other
+anhui_001207	other
+anhui_000202	other
+anhui_000740	other
+anhui_002217	other
+anhui_000205	other
+anhui_000770	other
+anhui_000173	zh mandarin
+anhui_001885	other
+anhui_001646	other
+anhui_002082	zh xiang
+anhui_002298	zh mandarin
+anhui_002160	other
+anhui_001941	other
+anhui_002740	other
+anhui_000194	other
+anhui_001793	other
+anhui_000797	zh north
+anhui_002150	other
+anhui_001046	other
+anhui_002091	other
+anhui_002606	other
+anhui_000839	zh north
+anhui_002379	other
+anhui_001816	other
+anhui_002144	zh mandarin
+anhui_000181	other
+anhui_001509	other
+anhui_002400	other
+anhui_000759	other
+anhui_002526	other
+anhui_002373	other
+anhui_000664	other
+anhui_001992	other
+anhui_002107	other
+anhui_000499	other
+anhui_001199	other
+anhui_002156	zh north
+anhui_000890	other
+anhui_000091	other
+anhui_001177	other
+anhui_001510	other
+anhui_002632	other
+anhui_002501	other
+anhui_001635	other
+anhui_000381	other
+anhui_000329	other
+anhui_000378	other
+anhui_001367	other
+anhui_000792	other
+anhui_000574	other
+anhui_002009	other
+anhui_001807	other
+anhui_001705	other
+anhui_001249	other
+anhui_001735	other
+anhui_002664	other
+anhui_001323	other
+anhui_001981	other
+anhui_000577	zh xiang
+anhui_001556	zh wu
+anhui_000140	other
+anhui_001707	other
+anhui_000002	other
+anhui_001295	other
+anhui_002309	other
+anhui_000044	other
+anhui_001540	zh mandarin
+anhui_001706	other
+anhui_002319	other
+anhui_002655	other
+anhui_001989	other
+anhui_000828	other
+anhui_001915	other
+anhui_001596	other
+anhui_000010	other
+anhui_001166	other
+anhui_001447	other
+anhui_001868	zh north
+anhui_002060	other
+anhui_002349	other
+anhui_001124	other
+anhui_001837	other
+anhui_001834	other
+anhui_001627	other
+anhui_001714	other
+anhui_001122	zh mandarin
+anhui_000047	other
+anhui_000407	other
+anhui_000653	other
+anhui_000037	other
+anhui_001290	other
+anhui_000090	other
+anhui_001873	zh mandarin
+anhui_000312	other
+anhui_000237	other
+anhui_001852	other
+anhui_001098	other
+anhui_001051	other
+anhui_000542	other
+anhui_001317	other
+anhui_000939	other
+anhui_001362	other
+anhui_001147	other
+anhui_000247	other
+anhui_001691	other
+anhui_000979	other
+anhui_002248	other
+anhui_001854	other
+anhui_001826	other
+anhui_002519	other
+anhui_001908	other
+anhui_001640	other
+anhui_000453	other
+anhui_002689	other
+anhui_002410	other
+anhui_002247	other
+anhui_001526	other
+anhui_001206	other
+anhui_002680	other
+anhui_001912	zh xiang
+anhui_002062	other
+anhui_001772	other
+anhui_000605	zh north
+anhui_001966	other
+anhui_002730	other
+anhui_002347	other
+anhui_000641	other
+anhui_000046	other
+anhui_002749	other
+anhui_000592	other
+anhui_000188	other
+anhui_000643	other
+anhui_000755	other
+anhui_001911	other
+anhui_002124	other
+anhui_001625	other
+anhui_002234	other
+anhui_000208	other
+anhui_000248	other
+anhui_000642	other
+anhui_002464	other
+anhui_001038	other
+anhui_002173	other
+anhui_000403	other
+anhui_000030	other
+anhui_001712	other
+anhui_002175	other
+anhui_000844	other
+anhui_000258	other
+anhui_002656	other
+anhui_002125	other
+anhui_002011	other
+anhui_000385	other
+anhui_000752	other
+anhui_001241	zh north
+anhui_001432	other
+anhui_000915	other
+anhui_002024	other
+anhui_000386	zh north
+anhui_001634	other
+anhui_000627	zh xinan
+anhui_001167	other
+anhui_002226	other
+anhui_001648	other
+anhui_002320	other
+anhui_001035	other
+anhui_002063	other
+anhui_001150	other
+anhui_002515	other
+anhui_001681	other
+anhui_001892	zh xiang
+anhui_002366	other
+anhui_000954	other
+anhui_001817	other
+anhui_000172	other
+anhui_001721	other
+anhui_001738	other
+anhui_001365	other
+anhui_001398	other
+anhui_001376	other
+anhui_001797	zh wu
+anhui_000282	other
+anhui_001056	other
+anhui_001182	other
+anhui_000779	other
+anhui_001044	zh xiang
+anhui_002565	other
+anhui_000007	other
+anhui_001787	other
+anhui_000150	other
+anhui_000110	other
+anhui_001840	other
+anhui_000467	other
+anhui_002195	other
+anhui_000100	bn
+anhui_000491	other
+anhui_002201	other
+anhui_002416	other
+anhui_002568	zh xiang
+anhui_002250	other
+anhui_002718	other
+anhui_002093	zh north
+anhui_002153	other
+anhui_000585	zh wu
+anhui_001551	other
+anhui_001311	other
+anhui_001720	other
+anhui_002098	other
+anhui_001369	other
+anhui_000025	zh mandarin
+anhui_001569	other
+anhui_002496	other
+anhui_001780	other
+anhui_000368	other
+anhui_002448	other
+anhui_001256	zh mandarin
+anhui_001999	zh north
+anhui_000570	other
+anhui_000901	other
+anhui_000769	other
+anhui_002188	other
+anhui_000167	zh north
+anhui_002665	other
+anhui_002411	other
+anhui_000062	other
+anhui_002724	other
+anhui_000804	other
+anhui_001926	zh north
+anhui_001153	other
+anhui_002273	zh north
+anhui_001853	other
+anhui_001881	other
+anhui_001724	zh mandarin
+anhui_002099	other
+anhui_000365	other
+anhui_002031	other
+anhui_000674	other
+anhui_000350	other
+anhui_000214	other
+anhui_001598	other
+anhui_001522	other
+anhui_001638	other
+anhui_000277	zh north
+anhui_001262	zh north
+anhui_001232	other
+anhui_000622	other
+anhui_002648	other
+anhui_001104	other
+anhui_001991	other
+anhui_000990	other
+anhui_001390	other
+anhui_001568	other
+anhui_000906	other
+anhui_001022	other
+anhui_001338	other
+anhui_001647	other
+anhui_001536	other
+anhui_001555	other
+anhui_002036	zh mandarin
+anhui_001419	other
+anhui_000156	other
+anhui_000021	other
+anhui_002696	other
+anhui_001094	other
+anhui_000292	other
+anhui_001739	other
+anhui_000811	other
+anhui_000463	other
+anhui_000472	other
+anhui_001889	other
+anhui_001798	other
+anhui_001767	other
+anhui_000689	other
+anhui_001110	zh mandarin
+anhui_001442	other
+anhui_001504	other
+anhui_002471	other
+anhui_001212	other
+anhui_000053	other
+anhui_002057	other
+anhui_001579	other
+anhui_000950	other
+anhui_000269	other
+anhui_000721	zh north
+anhui_000260	other
+anhui_001870	other
+anhui_001190	zh mandarin
+anhui_002209	other
+anhui_001962	other
+anhui_001350	zh north
+anhui_000617	zh xiang
+anhui_002131	zh xinan
+anhui_001466	other
+anhui_000838	other
+anhui_002522	other
+anhui_002163	other
+anhui_000377	other
+anhui_000964	other
+anhui_002559	other
+anhui_002158	other
+anhui_000768	other
+anhui_000788	other
+anhui_001590	other
+anhui_002658	other
+anhui_001945	other
+anhui_000949	other
+anhui_000629	other
+anhui_002170	zh mandarin
+anhui_002556	other
+anhui_000713	zh xiang
+anhui_001263	other
+anhui_002266	other
+anhui_000424	zh mandarin
+anhui_000857	other
+anhui_002394	other
+anhui_001700	zh mandarin
+anhui_000816	other
+anhui_000557	zh mandarin
+anhui_000524	other
+anhui_002523	other
+anhui_000639	other
+anhui_002587	other
+anhui_002007	other
+anhui_000968	other
+anhui_000815	other
+anhui_001243	other
+anhui_001298	other
+anhui_001316	other
+anhui_000504	zh north
+anhui_002282	other
+anhui_000391	other
+anhui_001296	zh mandarin
+anhui_002328	zh north
+anhui_001494	zh north
+anhui_001538	other
+anhui_002365	other
+anhui_001004	other
+anhui_002283	other
+anhui_001301	other
+anhui_000896	other
+anhui_001112	other
+anhui_001969	other
+anhui_001615	other
+anhui_001875	other
+anhui_001624	other
+anhui_002307	other
+anhui_002303	other
+anhui_001307	other
+anhui_001477	zh xiang
+anhui_000145	other
+anhui_000530	zh mandarin
+anhui_001433	other
+anhui_001804	other
+anhui_002620	zh north
+anhui_001515	other
+anhui_001050	other
+anhui_000027	other
+anhui_000043	zh north
+anhui_001614	other
+anhui_002130	other
+anhui_002324	other
+anhui_000429	other
+anhui_000898	other
+anhui_002237	other
+anhui_000213	other
+anhui_002228	other
+anhui_000301	other
+anhui_000718	other
+anhui_000962	zh north
+anhui_001346	other
+anhui_001694	other
+anhui_001516	other
+anhui_001821	other
+anhui_002174	zh north
+anhui_001248	other
+anhui_000995	other
+anhui_001446	other
+anhui_000182	zh north
+anhui_000969	other
+anhui_000235	other
+anhui_000910	other
+anhui_000519	other
+anhui_001673	other
+anhui_001872	other
+anhui_001384	other
+anhui_001723	other
+anhui_001670	other
+anhui_000108	other
+anhui_002445	other
+anhui_002133	other
+anhui_001380	zh mandarin
+anhui_000441	zh mandarin
+anhui_000019	zh north
+anhui_001785	other
+anhui_000360	other
+anhui_000363	other
+anhui_000913	other
+anhui_001858	other
+anhui_000694	other
+anhui_002371	other
+anhui_002650	other
+anhui_000211	other
+anhui_000170	other
+anhui_002417	zh north
+anhui_000888	other
+anhui_000144	other
+anhui_001880	other
+anhui_000685	other
+anhui_001388	other
+anhui_002781	other
+anhui_000153	other
+anhui_000796	other
+anhui_000534	other
+anhui_001434	other
+anhui_002103	other
+anhui_000494	other
+anhui_002736	other
+anhui_002143	other
+anhui_001940	other
+anhui_002271	other
+anhui_002145	other
+anhui_000321	zh north
+anhui_000427	other
+anhui_001507	other
+anhui_000676	other
+anhui_001360	other
+anhui_001697	other
+anhui_001205	other
+anhui_000063	other
+anhui_002695	other
+anhui_001709	other
+anhui_002483	other
+anhui_001472	other
+anhui_000231	other
+anhui_001480	other
+anhui_000681	other
+anhui_000351	other
+anhui_000004	other
+anhui_002626	other
+anhui_001359	other
+anhui_002765	other
+anhui_000225	other
+anhui_001603	other
+anhui_000919	zh xiang
+anhui_002392	other
+anhui_002343	other
+anhui_001080	other
+anhui_002486	other
+anhui_002468	other
+anhui_002172	zh north
+anhui_001351	other
+anhui_000576	other
+anhui_000957	zh north
+anhui_001368	zh mandarin
+anhui_002264	other
+anhui_001572	zh mandarin
+anhui_001218	other
+anhui_000712	other
+anhui_000780	other
+anhui_002327	other
+anhui_002509	other
+anhui_002368	other
+anhui_000035	zh xinan
+anhui_000476	zh north
+anhui_001073	other
+anhui_000073	other
+anhui_002068	other
+anhui_000059	other
+anhui_001792	other
+anhui_002193	zh north
+anhui_001278	other
+anhui_000475	zh mandarin
+anhui_001924	zh xinan
+anhui_001961	other
+anhui_002245	other
+anhui_001756	zh north
+anhui_002345	other
+anhui_001530	other
+anhui_002757	other
+anhui_000978	other
+anhui_002532	other
+anhui_001322	zh north
+anhui_002154	other
+anhui_000961	other
+anhui_002101	other
+anhui_002639	other
+anhui_002536	other
+anhui_001951	zh north
+anhui_001604	other
+anhui_002044	other
+anhui_000356	other
+anhui_002465	other
+anhui_001933	other
+anhui_001769	other
+anhui_002318	other
+anhui_000925	other
+anhui_002128	zh xiang
+anhui_001761	other
+anhui_000495	other
+anhui_002355	other
+anhui_001445	other
+anhui_000088	other
+anhui_002210	other
+anhui_001960	other
+anhui_002547	other
+anhui_001175	other
+anhui_002705	other
+anhui_002090	other
+anhui_002162	other
+anhui_000094	other
+anhui_001117	other
+anhui_000911	other
+anhui_002640	zh mandarin
+anhui_000637	other
+anhui_001109	other
+anhui_001114	other
+anhui_000589	other
+anhui_001543	zh mandarin
+anhui_002208	other
+anhui_001952	other
+anhui_000944	other
+anhui_002624	other
+anhui_000249	zh mandarin
+anhui_000393	zh mandarin
+anhui_001157	zh mandarin
+anhui_001068	other
+anhui_001250	other
+anhui_001131	other
+anhui_001010	zh north
+anhui_000651	other
+anhui_000927	other
+anhui_001770	zh mandarin
+anhui_002756	other
+anhui_000794	other
+anhui_002618	other
+anhui_002521	other
+anhui_000814	zh north
+anhui_001628	zh wu
+anhui_002080	other
+anhui_001957	other
+anhui_001851	other
+anhui_000739	other
+anhui_001656	other
+anhui_002436	other
+anhui_002706	other
+anhui_001979	zh north
+anhui_000942	other
+anhui_002729	other
+anhui_002297	other
+anhui_002494	other
+anhui_000506	other
+anhui_001057	other
+anhui_001773	zh xiang
+anhui_000297	other
+anhui_002716	other
+anhui_000215	other
+anhui_001923	other
+anhui_000206	other
+anhui_002611	other
+anhui_000097	other
+anhui_001599	zh mandarin
+anhui_000322	other
+anhui_000660	other
+anhui_001397	zh mandarin
+anhui_001224	other
+anhui_000394	zh mandarin
+anhui_002161	other
+anhui_000131	other
+anhui_002772	other
+anhui_000994	other
+anhui_002703	other
+anhui_002538	other
+anhui_000268	other
+anhui_002338	zh north
+anhui_001075	other
+anhui_001468	other
+anhui_000060	zh north
+anhui_002224	other
+anhui_000126	zh xiang
+anhui_001170	other
+anhui_002692	other
+anhui_000020	other
+anhui_000195	zh mandarin
+anhui_001261	zh mandarin
+anhui_002550	other
+anhui_001841	other
+anhui_001078	other
+anhui_000615	other
+anhui_001597	other
+anhui_000454	other
+anhui_000272	other
+anhui_002693	other
+anhui_001270	other
+anhui_002142	other
+anhui_001894	other
+anhui_001794	zh mandarin
+anhui_000096	other
+anhui_001835	other
+anhui_002321	other
+anhui_000204	zh wu
+anhui_000860	other
+anhui_001784	other
+anhui_002364	zh xinan
+anhui_001616	other
+anhui_001498	other
+anhui_000823	other
+anhui_002420	zh north
+anhui_000117	other
+anhui_000593	zh mandarin
+anhui_000727	other
+anhui_001352	other
+anhui_000305	other
+anhui_000239	other
+anhui_001062	zh north
+anhui_000497	other
+anhui_002768	other
+anhui_002212	other
+anhui_001847	other
+anhui_002238	other
+anhui_002569	other
+anhui_000490	other
+anhui_000015	other
+anhui_002279	other
+anhui_001865	other
+anhui_001862	other
+anhui_000473	other
+anhui_001636	other
+anhui_000513	zh mandarin
+anhui_000306	zh north
+anhui_001988	other
+anhui_001876	other
+anhui_002378	other
+anhui_002540	other
+anhui_002190	zh xiang
+anhui_001932	other
+anhui_001766	zh wu
+anhui_001065	zh xiang
+anhui_002660	zh mandarin
+anhui_000032	other
+anhui_000013	zh mandarin
+anhui_002590	zh mandarin
+anhui_002159	other
+anhui_001130	other
+anhui_002699	other
+anhui_000620	zh mandarin
+anhui_002405	other
+anhui_001283	other
+anhui_002440	zh mandarin
+anhui_001097	other
+anhui_000509	other
+anhui_001378	other
+anhui_000776	other
+anhui_001165	other
+anhui_001531	other
+anhui_000387	other
+anhui_000900	other
+anhui_001524	other
+anhui_001976	other
+anhui_001361	other
+anhui_001667	other
+anhui_001576	other
+anhui_000875	other
+anhui_001264	other
+anhui_002504	other
+anhui_001195	other
+anhui_000492	other
+anhui_001216	other
+anhui_000135	other
+anhui_001333	other
+anhui_002287	other
+anhui_002567	other
+anhui_000619	zh north
+anhui_001308	other
+anhui_001095	zh mandarin
+anhui_000610	other
+anhui_000775	other
+anhui_002344	zh xiang
+anhui_001267	other
+anhui_002147	other
+anhui_000175	other
+anhui_002213	other
+anhui_001144	other
+anhui_001763	other
+anhui_000430	other
+anhui_001824	other
+anhui_001902	other
+anhui_002516	other
+anhui_000818	other
+anhui_001470	other
+anhui_001917	zh wu
+anhui_002442	other
+anhui_000971	other
+anhui_000390	other
+anhui_000567	other
+anhui_000342	other
+anhui_000101	other
+anhui_002390	other
+anhui_000966	other
+anhui_000600	other
+anhui_002432	other
+anhui_000707	other
+anhui_000120	other
+anhui_002081	other
+anhui_002672	zh north
+anhui_002560	other
+anhui_000573	zh xinan
+anhui_002032	other
+anhui_000080	zh xiang
+anhui_002779	other
+anhui_000938	other
+anhui_000669	other
+anhui_000897	zh north
+anhui_000672	other
+anhui_002598	other
+anhui_000334	other
+anhui_002306	other
+anhui_002300	other
+anhui_000907	other
+anhui_000302	other
+anhui_002337	other
+anhui_001687	other
+anhui_001373	zh mandarin
+anhui_000398	other
+anhui_001595	other
+anhui_002413	other
+anhui_000743	other
+anhui_000697	other
+anhui_002066	zh north
+anhui_002308	other
+anhui_000536	zh north
+anhui_002514	other
+anhui_002021	other
+anhui_001732	other
+anhui_000033	other
+anhui_000380	other
+anhui_002596	other
+anhui_000234	other
+anhui_002557	other
+anhui_001715	zh xiang
+anhui_001747	other
+anhui_000586	zh mandarin
+anhui_000836	other
+anhui_001600	other
+anhui_001293	other
+anhui_000719	other
+anhui_001878	other
+anhui_001024	zh north
+anhui_001664	other
+anhui_000362	other
+anhui_000374	other
+anhui_001410	zh north
+anhui_001135	other
+anhui_001274	other
+anhui_002713	other
+anhui_002679	other
+anhui_002615	other
+anhui_000121	zh north
+anhui_001729	other
+anhui_002076	other
+anhui_001562	other
+anhui_000056	other
+anhui_000440	other
+anhui_000951	other
+anhui_001822	zh mandarin
+anhui_002372	other
+anhui_000079	other
+anhui_002452	other
+anhui_001606	other
+anhui_001069	other
+anhui_002402	other
+anhui_002242	other
+anhui_000616	other
+anhui_001418	other
+anhui_000420	other
+anhui_001103	zh mandarin
+anhui_000790	other
+anhui_001084	other
+anhui_002476	other
+anhui_002771	other
+anhui_000405	other
+anhui_000829	zh xinan
+anhui_002480	other
+anhui_000652	other
+anhui_001091	other
+anhui_000070	zh xinan
+anhui_000330	other
+anhui_002763	other
+anhui_000456	other
+anhui_002069	other
+anhui_001163	zh mandarin
+anhui_002635	other
+anhui_001089	other
+anhui_000400	other
+anhui_001136	zh wu
+anhui_002446	zh north
+anhui_002508	other
+anhui_001686	other
+anhui_000646	other
+anhui_000149	other
+anhui_000434	other
+anhui_002564	zh xiang
+anhui_002274	other
+anhui_001790	other
+anhui_001711	other
+anhui_000254	zh mandarin
+anhui_002424	zh mandarin
+anhui_000798	zh xiang
+anhui_001215	other
+anhui_001025	other
+anhui_001564	other
+anhui_001944	zh xinan
+anhui_002726	zh mandarin
+anhui_000777	zh north
+anhui_001954	other
+anhui_002181	other
+anhui_002357	other
+anhui_000853	other
+anhui_000628	other
+anhui_000668	zh north
+anhui_002085	other
+anhui_000662	other
+anhui_001370	other
+anhui_000367	other
+anhui_002752	other
+anhui_000102	other
+anhui_002018	other
+anhui_002176	other
+anhui_001440	zh xiang
+anhui_002214	other
+anhui_001096	other
+anhui_002313	other
+anhui_000696	other
+anhui_000408	other
+anhui_000139	other
+anhui_002393	zh north
+anhui_002123	other
+anhui_002027	other
+anhui_000996	zh xiang
+anhui_001312	other
+anhui_002769	other
+anhui_000406	other
+anhui_002288	zh north
+anhui_001222	other
+anhui_002555	other
+anhui_000086	other
+anhui_000507	other
+anhui_000872	other
+anhui_001253	other
+anhui_001162	other
+anhui_001967	other
+anhui_001119	other
+anhui_000447	other
+anhui_001052	other
+anhui_001639	other
+anhui_000107	other
+anhui_001019	other
+anhui_000997	other
+anhui_000867	zh mandarin
+anhui_000087	zh wu
+anhui_001651	other
+anhui_002218	other
+anhui_002510	other
+anhui_001936	other
+anhui_000388	other
+anhui_002451	other
+anhui_000369	other
+anhui_001831	other
+anhui_002117	other
+anhui_000955	zh xiang
+anhui_000223	other
+anhui_000183	other
+anhui_002662	other
+anhui_001752	other
+anhui_000371	other
+anhui_001789	other
+anhui_002034	other
+anhui_000852	other
+anhui_000339	other
+anhui_001152	zh mandarin
+anhui_001045	other
+anhui_002594	other
+anhui_002687	other
+anhui_001217	other
+anhui_001409	other
+anhui_002149	other
+anhui_000443	other
+anhui_002586	other
+anhui_001776	zh mandarin
+anhui_002045	other
+anhui_001055	other
+anhui_001313	other
+anhui_000286	other
+anhui_001036	other
+anhui_002019	other
+anhui_001500	other
+anhui_001474	other
+anhui_000069	other
+anhui_002005	other
+anhui_002381	other
+anhui_000357	other
+anhui_002296	other
+anhui_000243	other
+anhui_001982	other
+anhui_000587	other
+anhui_001608	other
+anhui_001571	other
+anhui_000309	other
+anhui_000861	zh north
+anhui_000484	zh mandarin
+anhui_002700	other
+anhui_002545	other
+anhui_002458	other
+anhui_002717	other
+anhui_002166	other
+anhui_002256	other
+anhui_001652	other
+anhui_000226	other
+anhui_002385	other
+anhui_000419	other
+anhui_000575	zh mandarin
+anhui_000864	other
+anhui_002704	zh north
+anhui_000981	other
+anhui_001857	other
+anhui_002549	other
+anhui_001719	other
+anhui_000630	other
+anhui_001552	other
+anhui_001383	other
+anhui_000308	other
+anhui_000992	zh north
+anhui_002751	other
+anhui_001657	other
+anhui_002329	zh wu
+anhui_000199	other
+anhui_001602	zh north
+anhui_000893	zh xiang
+anhui_001126	other
+anhui_001677	other
+anhui_000693	other
+anhui_002743	other
+anhui_000772	zh xinan
+anhui_002444	other
+anhui_002152	other
+anhui_001775	other
+anhui_002051	zh mandarin
+anhui_001744	other
+anhui_001488	other
+anhui_000287	zh mandarin
+anhui_001401	other
+anhui_001001	other
+anhui_000337	other
+anhui_000644	zh wu
+anhui_000566	other
+anhui_001565	other
+anhui_000935	other
+anhui_001746	other
+anhui_001986	other
+anhui_001060	other
+anhui_001469	other
+anhui_000336	other
+anhui_001391	other
+anhui_002177	other
+anhui_000314	other
+anhui_002178	other
+anhui_000361	other
+anhui_001415	other
+anhui_002322	other
+anhui_001535	other
+anhui_001223	other
+anhui_002584	other
+anhui_000671	other
+anhui_001377	other
+anhui_001718	other
+anhui_000275	zh mandarin
+anhui_001753	other
+anhui_001178	other
+anhui_000294	other
+anhui_002339	zh mandarin
+anhui_000692	zh xiang
+anhui_001621	other
+anhui_000912	other
+anhui_000762	other
+anhui_001389	other
+anhui_000736	other
+anhui_000318	other
+anhui_002582	other
+anhui_002553	zh xiang
+anhui_000502	other
+anhui_000324	other
+anhui_001708	other
+anhui_002609	other
+anhui_001626	other
+anhui_000011	other
+anhui_000821	other
+anhui_002744	other
+anhui_001589	other
+anhui_001013	other
+anhui_002419	zh north
+anhui_002290	other
+anhui_000169	other
+anhui_000540	other
+anhui_002376	other
+anhui_000711	other
+anhui_000354	other
+anhui_002079	other
+anhui_001884	other
+anhui_001808	other
+anhui_001601	other
+anhui_001003	zh xiang
+anhui_002020	other
+anhui_001235	other
+anhui_000603	other
+anhui_002455	other
+anhui_002104	other
+anhui_000303	other
+anhui_002583	other
+anhui_001071	other
+anhui_002603	zh mandarin
+anhui_000754	other
+anhui_001958	other
+anhui_002179	other
+anhui_002167	other
+anhui_002010	other
+anhui_001342	other
+anhui_001820	other
+anhui_000281	other
+anhui_001115	other
+anhui_002678	other
+anhui_000725	other
+anhui_001762	other
+anhui_001928	other
+anhui_001020	other
+anhui_002205	zh mandarin
+anhui_000735	zh mandarin
+anhui_002077	other
+anhui_000800	other
+anhui_002677	other
+anhui_002604	zh xiang
+anhui_002294	zh xiang
+anhui_000505	other
+anhui_000040	other
+anhui_001273	other
+anhui_000598	other
+anhui_002169	other
+anhui_001702	other
+anhui_002663	other
+anhui_001275	other
+anhui_001533	other
+anhui_001168	other
+anhui_001487	other
+anhui_002015	other
+anhui_001587	other
+anhui_000256	other
+anhui_001929	other
+anhui_001486	other
+anhui_001698	other
+anhui_000595	other
+anhui_001549	other
+anhui_002141	other
+anhui_000291	zh north
+anhui_001334	other
+anhui_000635	zh mandarin
+anhui_000448	other
+anhui_002438	other
+anhui_001381	other
+anhui_000510	other
+anhui_001128	zh xiang
+anhui_001007	zh north
+anhui_001452	other
+anhui_001997	other
+anhui_001247	other
+anhui_001403	zh mandarin
+anhui_000146	other
+anhui_000196	other
+anhui_002102	other
+anhui_002690	other
+anhui_002708	other
+anhui_000917	other
+anhui_000515	other
+anhui_001169	other
+anhui_002314	other
+anhui_000850	other
+anhui_002304	other
+anhui_002542	other
+anhui_001059	other
+anhui_001139	other
+anhui_000843	other
+anhui_002482	zh xiang
+anhui_001300	other
+anhui_000789	other
+anhui_001849	other
+anhui_000580	other
+anhui_000813	other
+anhui_000366	other
+anhui_000187	zh mandarin
+anhui_001754	other
+anhui_000572	other
+anhui_001623	other
+anhui_001425	other
+anhui_000533	other
+anhui_001444	other
+anhui_001692	other
+anhui_002491	zh xiang
+anhui_001803	other
+anhui_000958	other
+anhui_001750	other
+anhui_000445	zh mandarin
+anhui_002428	other
+anhui_002244	zh mandarin
+anhui_000191	other
+anhui_001331	zh xiang
+anhui_002403	other
+anhui_000498	other
+anhui_001318	other
+anhui_000835	zh north
+anhui_001791	zh xiang
+anhui_001408	other
+anhui_002202	other
+anhui_002277	other
+anhui_002467	other
+anhui_001781	other
+anhui_001289	other
+anhui_001041	zh mandarin
+anhui_001101	other
+anhui_000633	other
+anhui_001978	other
+anhui_001412	other
+anhui_000553	other
+anhui_002281	other
+anhui_001161	other
+anhui_000854	other
+anhui_000726	other
+anhui_001252	other
+anhui_000545	other
+anhui_000773	other
+anhui_001208	other
+anhui_002645	other
+anhui_000457	other
+anhui_001937	other
+anhui_001588	other
+anhui_002407	other
+anhui_000873	other
+anhui_000972	other
+anhui_002760	zh north
+anhui_001757	other
+anhui_000178	other
+anhui_001514	other
+anhui_000460	other
+anhui_001414	other
+anhui_002481	zh mandarin
+anhui_000295	other
+anhui_000481	other
+anhui_000186	other
+anhui_001771	other
+anhui_001231	zh north
+anhui_000383	zh mandarin
+anhui_000075	other
+anhui_000162	other
+anhui_000141	other
+anhui_002229	other
+anhui_002720	other
+anhui_000503	zh north
+anhui_002305	other
+anhui_001802	other
+anhui_001257	other
+anhui_002261	other
+anhui_000154	zh north
+anhui_000848	zh mandarin
+anhui_001675	other
+anhui_000438	other
+anhui_002109	other
+anhui_000527	other
+anhui_001863	other
+anhui_001392	other
+anhui_000008	zh mandarin
+anhui_001186	other
+anhui_001138	other
+anhui_000344	other
+anhui_002493	other
+anhui_002164	other
+anhui_001284	other
+anhui_001505	other
+anhui_002561	other
+anhui_000122	zh mandarin
+anhui_002750	other
+anhui_001532	other
+anhui_000084	other
+anhui_002040	other
+anhui_000537	other
+anhui_001643	other
+anhui_000029	other
+anhui_002643	zh north
+anhui_000074	other
+anhui_002698	other
+anhui_001799	other
+anhui_002227	other
+anhui_000831	zh mandarin
+anhui_000358	other
+anhui_000478	other
+anhui_001067	other
+anhui_001741	zh wu
+anhui_002221	zh north
+anhui_001279	other
+anhui_002278	other
+anhui_001339	zh xiang
+anhui_000543	other
+anhui_002431	zh wu
+anhui_001132	other
+anhui_000554	other
+anhui_002497	other
+anhui_000176	other
+anhui_002199	other
+anhui_000869	other
+anhui_001214	other
+anhui_001179	other
+anhui_000825	other
+anhui_002146	other
+anhui_000488	zh mandarin
+anhui_002270	other
+anhui_000402	other
+anhui_002342	other
+anhui_001402	other
+anhui_000887	other
+anhui_000889	other
+anhui_000109	other
+anhui_000147	zh mandarin
+anhui_000882	other
+anhui_001429	other
+anhui_000908	other
+anhui_001076	other
+anhui_002733	other
+anhui_002361	other
+anhui_002634	other
+anhui_001661	other
+anhui_001203	other
+anhui_000937	other
+anhui_002022	other
+anhui_001087	other
+anhui_001002	other
+anhui_002711	other
+anhui_000284	other
+anhui_001699	other
+anhui_000649	other
+anhui_000485	other
+anhui_000930	other
+anhui_002589	other
+anhui_002518	other
+anhui_002774	other
+anhui_002475	zh north
+anhui_000963	zh mandarin
+anhui_001420	zh north
+anhui_000529	other
+anhui_001058	other
+anhui_001874	other
+anhui_001620	other
+anhui_000409	other
+anhui_001099	other
+anhui_000706	other
+anhui_001341	other
+anhui_000227	zh north
+anhui_000055	other
+anhui_001288	zh xinan
+anhui_000210	other
+anhui_001919	other
+anhui_001805	other
+anhui_001016	other
+anhui_001471	other
+anhui_001176	other
+anhui_002388	other
+anhui_001984	zh north
+anhui_000018	other
+anhui_000132	other
+anhui_000916	other
+anhui_000118	other
+anhui_000833	other
+anhui_001082	other
+anhui_000655	zh mandarin
+anhui_000824	other
+anhui_000115	other
+anhui_000469	other
+anhui_001736	other
+anhui_001319	other
+anhui_000947	other
+anhui_002737	zh mandarin
+anhui_001935	other
+anhui_000698	other
+anhui_000517	other
+anhui_002275	other
+anhui_000221	other
+anhui_000143	other
+anhui_002326	zh north
+anhui_001348	other
+anhui_001303	other
+anhui_001258	other
+anhui_000926	zh north
+anhui_000072	other
+anhui_002114	other
+anhui_001930	other
+anhui_001985	other
+anhui_000016	other
+anhui_001017	zh north
+anhui_002610	other
+anhui_001158	other
+anhui_001431	other
+anhui_001125	other
+anhui_000709	other
+anhui_001244	zh mandarin
+anhui_001193	kn
+anhui_002759	other
+anhui_000531	other
+anhui_002600	other
+anhui_002580	other
+anhui_002284	other
+anhui_001031	other
+anhui_000521	other
+anhui_002017	other
+anhui_001015	other
+anhui_000273	other
+anhui_001764	other
+anhui_000163	other
+anhui_000370	other
+anhui_002712	other
+anhui_000171	other
+anhui_001904	other
+anhui_000397	other
+anhui_001374	other
+anhui_002723	other
+anhui_000315	zh north
+anhui_000934	other
+anhui_000650	other
+anhui_002527	other
+anhui_001344	other
+anhui_000307	zh north
+anhui_001481	other
+anhui_002348	other
+anhui_000404	other
+anhui_002122	other
+anhui_002701	other
+anhui_000941	other
+anhui_001517	other
+anhui_002566	other
+anhui_002449	other
+anhui_002463	other
+anhui_002731	other
+anhui_001074	other
+anhui_002546	other
+anhui_002651	zh north
+anhui_002421	other
+anhui_000327	zh xiang
+anhui_000024	other
+anhui_001149	other
+anhui_000444	other
+anhui_001795	other
+anhui_002466	other
+anhui_000265	other
+anhui_001968	other
+anhui_002333	other
+anhui_000098	zh mandarin
+anhui_000280	other
+anhui_002204	other
+anhui_000325	other
+anhui_001672	other
+anhui_000677	other
+anhui_001727	zh mandarin
+anhui_000106	other
+anhui_002707	other
+anhui_001918	other
+anhui_001226	other
+anhui_001329	other
+anhui_000355	zh north
+anhui_000802	other
+anhui_002046	other
+anhui_000548	other
+anhui_000142	zh north
+anhui_002742	other
+anhui_002474	other
+anhui_002524	other
+anhui_001269	other
+anhui_000924	other
+anhui_002184	other
+anhui_000801	other
+anhui_002035	other
+anhui_000866	other
+anhui_000520	other
+anhui_000082	zh north
+anhui_000023	other
+anhui_002265	other
+anhui_001457	other
+anhui_000986	other
+anhui_001897	other
+anhui_001611	other
+anhui_002755	zh xiang
+anhui_002100	other
+anhui_001518	zh north
+anhui_002236	other
+anhui_002001	other
+anhui_002132	other
+anhui_000933	other
+anhui_001560	other
+anhui_002223	other
+anhui_000756	other
+anhui_001666	zh north
+anhui_002028	other
+anhui_000316	other
+anhui_001371	other
+anhui_002292	zh xiang
+anhui_002563	other
+anhui_002043	other
+anhui_001072	other
+anhui_002423	other
+anhui_001326	zh mandarin
+anhui_002352	other
+anhui_001455	other
+anhui_000218	zh north
+anhui_000614	zh north
+anhui_001973	other
+anhui_002675	other
+anhui_001815	other
+anhui_002597	other
+anhui_000880	other
+anhui_001049	zh mandarin
+anhui_002054	other
+anhui_000720	other
+anhui_001083	other
+anhui_001893	other
+anhui_000705	other
+anhui_000166	other
+anhui_000870	other
+anhui_001684	other
+anhui_000781	other
+anhui_001765	other
+anhui_002049	other
+anhui_002498	other
+anhui_001584	other
+anhui_000119	other
+anhui_001229	other
+anhui_000731	other
+anhui_001682	other
+anhui_000452	other
+anhui_002191	zh north
+anhui_001659	other
+anhui_002171	other
+anhui_000965	other
+anhui_000455	zh north
+anhui_000761	zh mandarin
+anhui_001860	other
+anhui_001993	other
+anhui_000552	zh mandarin
+anhui_001725	other
+anhui_001818	zh mandarin
+anhui_000980	zh xiang
+anhui_001443	other
+anhui_001227	other
+anhui_001006	other
+anhui_002094	zh mandarin
+anhui_002641	other
+anhui_001201	other
+anhui_002254	other
+anhui_002592	other
+anhui_002215	other
+anhui_001743	other
+anhui_001174	other
+anhui_001963	other
+anhui_001005	zh mandarin
+anhui_000331	other
+anhui_002552	other
+anhui_002767	other
+anhui_001435	other
+anhui_002053	other
+anhui_001896	other
+anhui_002484	other
+anhui_000734	zh north
+anhui_000050	other
+anhui_001655	other
+anhui_001255	other
+anhui_000989	other
+anhui_001315	other
+anhui_002358	zh xiang
+anhui_001297	other
+anhui_001553	other
+anhui_000702	other
+anhui_001722	other
+anhui_000928	zh north
+anhui_002441	other
+anhui_001396	other
+anhui_002061	other
+anhui_001519	other
+anhui_001451	other
+anhui_001090	other
+anhui_002362	zh north
+anhui_002654	zh mandarin
+anhui_000945	zh mandarin
+anhui_000895	other
+anhui_000421	other
+anhui_000523	other
+anhui_001899	other
+anhui_000894	other
+anhui_001194	other
+anhui_002121	zh mandarin
+anhui_000786	zh mandarin
+anhui_000512	other
+anhui_000095	other
+anhui_001061	zh xiang
+anhui_000259	other
+anhui_000659	other
+anhui_001814	other
+anhui_001280	other
+anhui_001704	other
+anhui_002295	other
+anhui_001859	other

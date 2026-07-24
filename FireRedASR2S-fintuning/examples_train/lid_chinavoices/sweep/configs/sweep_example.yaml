@@ -1,0 +1,128 @@
+# ============================================================================
+# LID 贪心式超参扫描 · 示例配置（精简版：保底 12 次、最好 7 次）
+# ---------------------------------------------------------------------------
+# 用途：驱动 examples_train/lid_chinavoices/sweep/sweep_main.py 依次扫描 6 个
+#       维度（lr → encoder_lr → dropout → label_smoothing → weight_decay →
+#       seed）；每个维度扫描完成后，选出 test 集 LID 准确率最高的取值固化
+#       为基线，进入下一维度。
+#
+# 实验数估算（配合方案 C 的候选复用逻辑）：
+#   - 每维度 2 个候选，且每维度候选表都包含当前 baseline 值
+#   - 最好情况（每个 winner 都保持 baseline 值）：2 + 5×1 = 7 次
+#   - 最坏情况（每个 winner 都切换到新值）：2 + 5×2 = 12 次
+#
+# 精简原则（相比原 7 维 × 3 候选版本）：
+#   1) 移除 batch_size 维度：显存已接近 99%，进一步提升会 OOM；且与 lr 强耦合
+#   2) 每维度砍到 2 个候选：保留 baseline 值 + 一个方向性对照值
+#   3) 每维度候选表都包含 baseline 当前值 → 从第 2 维度起可能触发复用
+#
+# 生效范围：本配置仅影响扫描流水线（sweep_main.py），不影响手动运行入口
+#          run_finetune_lid_chinavoices.sh / run_decode_test_lid_chinavoices.sh。
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# 1. 固定公共参数：所有实验共用，不作为扫描维度
+# ---------------------------------------------------------------------------
+fixed_params:
+  # 训练/验证集：与手动脚本一致（ChinaVoices Challenge Reference Set，按说话人切分）
+  train_jsonl: /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_train_vc.jsonl
+  val_jsonl: /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_val_vc.jsonl
+
+  # 测试集（用于计算 LID 准确率作为贪心选优依据）
+  # 必需包含 `accent` 字段作为 gold 标签
+  test_jsonl: /mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_ichiwang/data/challenge_data_speaker/data_test.jsonl
+
+  # 预训练 FireRedLID 模型目录（内含 model.pth.tar 与 cmvn.ark）
+  pretrained_model_dir: /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/pretrained_models/FireRedLID
+
+  # 数据加载并行度
+  num_workers: 8
+
+  # 训练时是否开启 FP16 混合精度（1=开启，0=关闭）
+  use_amp: 1
+
+  # 日志间隔（每 N 步打印一次）
+  log_interval: 50
+
+# ---------------------------------------------------------------------------
+# 2. 基线超参：所有维度扫描前的"起点"；随扫描逐维度被固化更新
+# ---------------------------------------------------------------------------
+baseline:
+  lr: 1.0e-3               # 分类头学习率
+  encoder_lr: 1.0e-5       # encoder 学习率（相差 100 倍以保护预训练）
+  batch_size: 24           # 每 GPU batch size；全局 batch = 24 × world_size
+  dropout: 0.2             # pooling 后的 dropout
+  weight_decay: 1.0e-5     # AdamW 权重衰减
+  label_smoothing: 0.05    # 交叉熵标签平滑
+  seed: 1337               # 随机种子
+  grad_clip: 1.0           # 梯度裁剪阈值
+  warmup_steps: 500        # 学习率线性预热步数
+  epochs: 10               # 单次实验最大 epoch 数
+  patience: 2              # 早停耐心值：val_acc 连续 N 个 epoch 未提升即停
+  min_delta: 0.001         # val_acc 提升的最小增量
+  freeze_encoder: 0        # 0=全参微调（默认），1=冻结 encoder 只训分类头
+
+# ---------------------------------------------------------------------------
+# 3. 扫描顺序：按此顺序依次贪心扫描
+#    - 每维度扫完后，选 test 集准确率最高的取值固化到 baseline，进入下一维度
+#    - 名单必须来自 sweep_space 中定义的键
+#    - 已移除 batch_size：显存接近 99%，进一步扫描风险大且与 lr 强耦合
+# ---------------------------------------------------------------------------
+sweep_order:
+  - lr
+  - encoder_lr
+  - dropout
+  - label_smoothing
+  - weight_decay
+  - seed
+
+# ---------------------------------------------------------------------------
+# 4. 扫描空间：每个维度的候选值列表
+#    - 候选值必须是标量（数字或整数）
+#    - 若某维度只有 1 个候选，扫描器会自动跳过并直接固化该值
+#    - 每维度都包含 baseline 当前值 → 从第 2 维度起可复用前序 winner 实验
+# ---------------------------------------------------------------------------
+sweep_space:
+  # baseline: 1e-3；对照更小的 5e-4，验证是否学得更稳
+  lr:
+    - 5.0e-4
+    - 1.0e-3
+  # baseline: 1e-5；对照更大的 5e-5，验证 encoder 是否需要更快更新
+  encoder_lr:
+    - 1.0e-5
+    - 5.0e-5
+  # baseline: 0.2；对照更强正则 0.3，验证是否欠正则
+  dropout:
+    - 0.2
+    - 0.3
+  # baseline: 0.05；对照 0.1，验证是否需要更强平滑
+  label_smoothing:
+    - 0.05
+    - 0.1
+  # baseline: 1e-5；对照更强 1e-4，验证是否需要更强权重衰减
+  weight_decay:
+    - 1.0e-5
+    - 1.0e-4
+  # baseline: 1337；对照 2024，验证结果对随机种子的鲁棒性
+  seed:
+    - 1337
+    - 2024
+
+# ---------------------------------------------------------------------------
+# 5. 运行选项
+# ---------------------------------------------------------------------------
+run_options:
+  # 扫描顶层输出目录基路径；实际会追加时间戳后缀 exp/lid_sweep_<YYYYmmdd_HHMMSS>
+  # 所有实验产物都严格位于此目录内，绝不写入项目其它位置
+  base_output_dir: ./exp
+
+  # 顶层扫描目录前缀（最终目录名 = <sweep_dir_prefix>_<timestamp>）
+  sweep_dir_prefix: lid_sweep
+
+  # 是否只保留每个维度最优实验的 best.pt，删除同维度非最优实验的 checkpoint
+  # true 节省磁盘（每个 best.pt 约数百 MB × 最多 12 次实验）；文本产物（日志/预测/准确率）全部保留
+  keep_only_best_ckpt: true
+
+  # 训练异常准确率下限：低于此值时打印 warning（不影响流程继续）
+  # LID 有 16 类，随机基线约 0.0625
+  min_acc_warning_threshold: 0.0625

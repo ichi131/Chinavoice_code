@@ -1,0 +1,136 @@
+# ============================================================================
+# ASR 贪心式超参扫描 · 示例配置（最好 6 次 / 最坏 10 次）
+# ---------------------------------------------------------------------------
+# 用途：驱动 examples_train/asr_chinavoices/sweep/sweep_main.py 依次扫描 5 个
+#       维度（encoder_lr → decoder_lr → ctc_weight → label_smoothing →
+#       warmup_steps）；每维度扫完后，取"外部 test overall CER 最小"的候选值
+#       固化为新 baseline 进入下一维度。
+#
+# 实验数估算（每维度都包含当前 baseline 值，触发方案 C 复用）：
+#   - 第 1 维（encoder_lr）：baseline=5e-6 是候选之一 → 第 1 次跑等于 baseline
+#                            → 实际跑 2 次候选（5e-6, 1e-5）
+#   - 第 2~5 维：候选表都包含当前 baseline 值 → baseline 值命中复用（0 次训练）
+#                → 每维只额外跑 1 次新候选
+#   - 最好情况（每维 winner 都保持 baseline）：2 + 4×1 = 6 次
+#   - 最坏情况（每维 winner 都切换）：2 + 4×2 = 10 次
+#
+# 选优指标：外部 test 集 overall CER（越小越好），由官方评估工具
+#          `eval_jsonl_with_wer_tools.sh` 的 result.wer 中 "Overall ->" 行给出。
+#
+# 生效范围：本配置仅影响扫描流水线（sweep_main.py），不影响手动运行入口
+#          run_finetune_asr_chinavoices.sh / decode_asr_chinavoices.py。
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# 1. 数据与外部工具路径
+# ---------------------------------------------------------------------------
+data_paths:
+  # 训练/验证集：与手动脚本一致
+  train_jsonl: /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_train_vc.jsonl
+  val_jsonl: /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_val_vc.jsonl
+  # 外部 test 集（用于计算 CER 作为贪心选优依据）
+  # 字段：{key, wav_path, text, accent}，扫描器会自动转换成推理脚本需要的
+  # {audio, text: "language Chinese <accent><asr_text><text>", key, accent} 格式，
+  # 生成的转换文件位于 sweep 根目录下 test_input_converted.jsonl，避免污染源数据。
+  test_jsonl: /mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_ichiwang/data/challenge_data_speaker/data_test.jsonl
+
+# 预训练模型目录（软链到 ichiwang 原始文件，功能等价）
+pretrained_model_dir: /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/pretrained_models/FireRedASR2-AED
+
+# 格式化脚本（把推理产物裁剪为官方评估所需的 9 字段）
+format_script: /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/exp/asr_chinavoices_vc/format_pred_jsonl.py
+
+# 官方 CER 评估工具（T2S 繁转简 + 清洗 + wer.py 计算 CER + by_dialect 汇总）
+eval_tool_sh: /mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_johannapeng/ChinaVoices-Challenge/eval/eval_jsonl_with_wer_tools.sh
+
+# ---------------------------------------------------------------------------
+# 2. Baseline 超参：所有维度扫描前的"起点"；随扫描逐维度被固化更新
+# ---------------------------------------------------------------------------
+baseline_hparams:
+  # === 扫描维度（会被 sweep_space 覆盖） ===
+  encoder_lr: 5.0e-6       # encoder 学习率（保护预训练）
+  decoder_lr: 1.0e-5       # decoder 学习率
+  ctc_weight: 0.3          # CTC 与 attention 损失权重
+  label_smoothing: 0.1     # 标签平滑系数
+  warmup_steps: 1000       # 学习率线性预热步数
+
+  # === 固定超参（不参与扫描） ===
+  epochs: 10
+  batch_size: 4            # 单卡 batch；8 卡 × batch 4 × accum 8 = 有效 256
+  grad_accum_steps: 8
+  num_workers: 4
+  weight_decay: 1.0e-2
+  grad_clip: 5.0
+  max_input_frames: 6000
+  max_target_length: 256
+  use_amp: 1
+  save_optimizer: 1
+  seed: 1337
+  log_interval: 100
+
+# ---------------------------------------------------------------------------
+# 3. 扫描顺序：按此顺序依次贪心扫描
+#    - 每维度扫完后，选 test overall CER 最小的取值固化到 baseline
+#    - 名单必须来自 sweep_space 中定义的键
+# ---------------------------------------------------------------------------
+sweep_order:
+  - encoder_lr
+  - decoder_lr
+  - ctc_weight
+  - label_smoothing
+  - warmup_steps
+
+# ---------------------------------------------------------------------------
+# 4. 扫描空间：每个维度的候选值列表
+#    - 每维度必须包含 baseline 当前值 → 从第 2 维度起可复用第 1 维度 winner
+#    - 每维度候选数控制在 2 个，24h 预算下最坏 10 次训练
+# ---------------------------------------------------------------------------
+sweep_space:
+  # baseline: 5e-6；对照 1e-5 检验 encoder 是否需要更快更新
+  encoder_lr:
+    - 5.0e-6
+    - 1.0e-5
+  # baseline: 1e-5；对照 3e-5 检验 decoder 是否需要更强适配
+  decoder_lr:
+    - 1.0e-5
+    - 3.0e-5
+  # baseline: 0.3；对照 0.5 检验 CTC 分支是否需要更强
+  ctc_weight:
+    - 0.3
+    - 0.5
+  # baseline: 0.1；对照 0.05 检验更轻的正则是否更利于收敛
+  label_smoothing:
+    - 0.05
+    - 0.1
+  # baseline: 1000；对照 2000 检验更长 warmup 是否更稳
+  warmup_steps:
+    - 1000
+    - 2000
+
+# ---------------------------------------------------------------------------
+# 5. 推理阶段参数（对齐手动推理入口 `--gpu-ids all --batch-size 16 --use-half`）
+# ---------------------------------------------------------------------------
+infer_args:
+  gpu_ids: all             # 使用所有可见 GPU
+  batch_size: 16           # 每卡 batch
+  use_half: true           # FP16 半精度推理
+  beam_size: 3
+  decode_max_len: 300
+  softmax_smoothing: 1.25
+  length_penalty: 0.6
+  eos_penalty: 1.0
+  log_interval: 20
+
+# ---------------------------------------------------------------------------
+# 6. 运行选项
+# ---------------------------------------------------------------------------
+run_options:
+  # 扫描顶层输出目录基路径；实际会追加时间戳后缀 exp/asr_sweep_<YYYYmmdd_HHMMSS>
+  base_output_dir: ./exp
+  # 顶层扫描目录前缀（最终目录名 = <sweep_dir_prefix>_<timestamp>）
+  sweep_dir_prefix: asr_sweep
+  # 是否只保留每维度最优实验的 model.pth.tar / last.pt，删除同维度非最优 ckpt
+  # true 节省磁盘（每个 ckpt ~数 GB × 最多 10 次实验）；文本产物（日志/预测/评估）全保留
+  keep_only_best_ckpt: true
+  # 训练分布式启动方式
+  nproc_per_node: 8

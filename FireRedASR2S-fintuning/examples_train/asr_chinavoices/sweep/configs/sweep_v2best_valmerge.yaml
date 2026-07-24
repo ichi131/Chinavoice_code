@@ -1,0 +1,114 @@
+# ============================================================================
+# ASR 微调 · 回到 sweep 最优配置（VC_data_v2 + label_smoothing=0.05 winner）
+#                + val 使用 val+test 合并集 + epochs=8
+# ---------------------------------------------------------------------------
+# 目的：
+#   1. 复用 sweep_20260721_114230 的最优 run（04_label_smoothing__0.05，
+#      test overall CER = 11.53%）的全部训练超参和训练数据；
+#   2. 仅将 val_jsonl 替换为已在本机合并的 data_val_plus_test_vc.jsonl
+#      （val 19716 + test 4934 = 24650 条），让 best ckpt 的选择更稳定；
+#   3. 将 epochs 从 10 缩短到 8：
+#      - 依据：sweep 最优 run 的 best 在 epoch 7 出现，之后 val_loss/val_cer
+#        均已回升（epoch 8/9/10 全是过拟合），epochs=8 = best+1 buffer；
+#      - 节省 ~20% 训练时间（约 25 分钟）。
+#
+# 关键差异（相对 sweep_example.yaml 的 04 winner）：
+#   - val_jsonl 换成 VC_data_v2/data_val_plus_test_vc.jsonl（唯一改动的数据路径）
+#   - epochs: 10 → 8
+#   - baseline_hparams / sweep_space 与 04 winner 完全一致
+#
+# 关键相同（保证与 sweep baseline 11.53% 可比）：
+#   - train_jsonl 与 sweep_example.yaml 完全一致（VC_data_v2/data_train_vc.jsonl）
+#   - test_jsonl  与 sweep_example.yaml 完全一致（外部独立评估集，不受 val 合并影响）
+#   - encoder_lr = decoder_lr = 1e-5, ctc_weight = 0.3,
+#     label_smoothing = 0.05, warmup_steps = 1000
+#
+# 生效范围：本 YAML 仅供 run_finetune_v2best_valmerge.sh 使用，
+#          不覆盖 sweep_example.yaml / sweep_mixft_v5_best.yaml。
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# 1. 数据与外部工具路径
+# ---------------------------------------------------------------------------
+data_paths:
+  # 训练集：与 sweep_example.yaml 完全一致（回到 sweep 最优 run 的训练数据）
+  train_jsonl: /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_train_vc.jsonl
+  # 验证集：val+test 合并集（本次唯一改动，用于让 best ckpt 选择更稳定）
+  val_jsonl:   /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_val_plus_test_vc.jsonl
+  # 外部 test 集：保持不变，仍用原独立 test，用于与 sweep baseline 11.53% 可比
+  test_jsonl:  /mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_ichiwang/data/challenge_data_speaker/data_test.jsonl
+
+pretrained_model_dir: /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/pretrained_models/FireRedASR2-AED
+
+format_script: /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/exp/asr_chinavoices_vc/format_pred_jsonl.py
+
+eval_tool_sh: /mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_johannapeng/ChinaVoices-Challenge/eval/eval_jsonl_with_wer_tools.sh
+
+# ---------------------------------------------------------------------------
+# 2. Baseline 超参（= sweep_example.yaml 中 04_label_smoothing__0.05 winner）
+# ---------------------------------------------------------------------------
+baseline_hparams:
+  encoder_lr: 1.0e-5       # sweep 维度 01 winner
+  decoder_lr: 1.0e-5       # sweep 维度 02 winner
+  ctc_weight: 0.3          # sweep 维度 03 winner
+  label_smoothing: 0.05    # sweep 维度 04 winner（final baseline）
+  warmup_steps: 1000       # sweep 维度 05 winner
+
+  # === 固定超参（与 sweep 04 winner 完全一致，仅 epochs 由 10 → 8） ===
+  epochs: 8                # best 在 epoch 7 出现，+1 buffer，节省 20% 时间
+  batch_size: 4
+  grad_accum_steps: 8
+  num_workers: 4
+  weight_decay: 1.0e-2
+  grad_clip: 5.0
+  max_input_frames: 6000
+  max_target_length: 256
+  use_amp: 1
+  save_optimizer: 1
+  seed: 1337
+  log_interval: 100
+
+# ---------------------------------------------------------------------------
+# 3. 扫描顺序：仍保留 5 维度以复用 sweep pipeline，但每维度只放 baseline 值
+# ---------------------------------------------------------------------------
+sweep_order:
+  - encoder_lr
+  - decoder_lr
+  - ctc_weight
+  - label_smoothing
+  - warmup_steps
+
+# ---------------------------------------------------------------------------
+# 4. 扫描空间：每维度 1 个候选（= 当前 baseline）
+#    - 维度 01 真正训练 1 次；维度 02~05 触发 reuse，不重复训练
+#    - 总训练次数：1
+# ---------------------------------------------------------------------------
+sweep_space:
+  encoder_lr:      [1.0e-5]
+  decoder_lr:      [1.0e-5]
+  ctc_weight:      [0.3]
+  label_smoothing: [0.05]
+  warmup_steps:    [1000]
+
+# ---------------------------------------------------------------------------
+# 5. 推理参数：与 sweep_example.yaml 完全一致（保证同口径对比 11.53%）
+# ---------------------------------------------------------------------------
+infer_args:
+  gpu_ids: all
+  batch_size: 16
+  use_half: true
+  beam_size: 3
+  decode_max_len: 300
+  softmax_smoothing: 1.25
+  length_penalty: 0.6
+  eos_penalty: 1.0
+  log_interval: 20
+
+# ---------------------------------------------------------------------------
+# 6. 运行选项
+# ---------------------------------------------------------------------------
+run_options:
+  base_output_dir: ./exp
+  sweep_dir_prefix: asr_v2best_valmerge
+  keep_only_best_ckpt: true
+  nproc_per_node: 8

@@ -1,0 +1,68 @@
+
+# ===== 预训练模型 / checkpoint（体积大，不适合放 GitHub） =====
+pretrained_models/
+**/pretrained_models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+*.h5
+
+# ===== 实验输出 / 中间产物 =====
+exp/
+outputs/
+outputs_*/
+**/exp/
+**/outputs/
+**/outputs_*/
+checkpoint-*/
+runs/
+wandb/
+
+# ===== 数据集 =====
+data/
+data_*/
+**/data/
+**/data_*/
+*.wav
+*.mp3
+*.flac
+*.npy
+*.npz
+*.tfrecord
+
+# ===== 大的 jsonl / 预测结果 =====
+pred_evaluation.jsonl
+*.pred.jsonl
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+.env
+
+# ===== 日志 =====
+*.log
+logs/
+infer_logs/
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+.codebuddy/
+*.swp
+*.swo
+.DS_Store

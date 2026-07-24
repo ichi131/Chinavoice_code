@@ -1,0 +1,64 @@
+# =============================================================================
+# VC_v2 HPO Search Space
+# -----------------------------------------------------------------------------
+# 本文件为搜索空间的"人类可读版"文档。真正被 run_hpo.sh 使用的是同目录下
+# run_hpo.sh 顶部的 bash 数组，两者保持一致；若要修改搜索空间，请同步改二者。
+#
+# baseline（复用 outputs_vc_v2/ 现有结果，不重训）：
+#   lr=2e-5, bs=8(global=256), warmup=0.03, sched=cosine,
+#   esp=3, epochs=5, seed=42
+# =============================================================================
+
+stages:
+  - id: 1
+    name: LR
+    values: [1e-5, 2e-5, 3e-5, 5e-5, 8e-5]
+    baseline: 2e-5
+
+  - id: 2
+    name: BATCH_SIZE           # per-GPU；NUM_GPUS=8, GRAD_ACC=4
+    values: [4, 8, 16, 32]     # 对应全局 batch: 128 / 256 / 512 / 1024
+    baseline: 8
+
+  - id: 3
+    name: WARMUP_RATIO
+    values: [0.0, 0.03, 0.06, 0.10]
+    baseline: 0.03
+
+  - id: 4
+    name: LR_SCHEDULER
+    values: [cosine, linear, constant_with_warmup]
+    baseline: cosine
+
+  - id: 5
+    name: EARLY_STOP_PATIENCE
+    values: [2, 3, 5, 8]
+    baseline: 3
+
+  - id: 6                      # 条件性：仅当 Stage5 最优 trial 未早停时执行
+    name: EPOCHS
+    values: [5, 8, 12]
+    baseline: 5
+
+  - id: 7                      # 鲁棒性验证
+    name: SEED
+    values: [42, 123, 2024, 7, 3407]
+    baseline: 42
+
+# 固定不变的训练参数
+fixed:
+  NUM_GPUS: 8
+  GRAD_ACC: 4
+  BF16: 1
+  SAVE_STEPS: 50
+  SAVE_TOTAL_LIMIT: 2
+  EARLY_STOP_THRESHOLD: 0.0
+  MODEL_PATH: /mnt/geminihzceph/user_johannapeng/Qwen3-ASR/Qwen3-ASR-1.7B
+  TRAIN_FILE: challenge_full_ft/data_vc_v2/train.jsonl
+  EVAL_FILE:  challenge_full_ft/data_vc_v2/val.jsonl
+  DATA_TEST:  challenge_full_ft/data/test.jsonl
+
+# 评估目标（越大越好）
+objective:
+  metric: dialect_accuracy      # 从 wer_eval/dialect_accuracy.txt 解析 accuracy: 0.xxxxxx
+  tiebreaker: overall_cer_lower # 若 LID 并列，用整体 CER 更低者胜出

@@ -1,0 +1,71 @@
+# ============================================================================
+# ASR 扫描 · 轻量 dry-run 配置
+# ---------------------------------------------------------------------------
+# 用途：最小成本地验证整条扫描流水线是否可跑通。
+#
+# 特点：
+# - 1 个扫描维度（encoder_lr），2 个候选 → 共 2 次训练实验
+# - epochs=1 → 单次训练时间最短（8 卡 × VC 数据）
+# - warmup_steps=0 → 避免长 warmup
+# - infer_args.batch_size=16 保持不变以便真实验证推理路径
+#
+# 用法：
+#   CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
+#   SWEEP_CONFIG=examples_train/asr_chinavoices/sweep/configs/sweep_dryrun.yaml \
+#     bash examples_train/asr_chinavoices/sweep/run_sweep_asr_chinavoices.sh
+# ============================================================================
+
+data_paths:
+  train_jsonl: /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_train_vc.jsonl
+  val_jsonl: /mnt/geminihzceph/user_johannapeng/challenge_model/VC_data_v2/data_val_vc.jsonl
+  test_jsonl: /mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_ichiwang/data/challenge_data_speaker/data_test.jsonl
+
+pretrained_model_dir: /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/pretrained_models/FireRedASR2-AED
+
+format_script: /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/exp/asr_chinavoices_vc/format_pred_jsonl.py
+
+eval_tool_sh: /mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_johannapeng/ChinaVoices-Challenge/eval/eval_jsonl_with_wer_tools.sh
+
+baseline_hparams:
+  encoder_lr: 5.0e-6
+  decoder_lr: 1.0e-5
+  ctc_weight: 0.3
+  label_smoothing: 0.1
+  warmup_steps: 0            # dryrun：避免长 warmup
+  epochs: 1                  # dryrun：单 epoch 快速验证
+  batch_size: 4
+  grad_accum_steps: 8
+  num_workers: 2
+  weight_decay: 1.0e-2
+  grad_clip: 5.0
+  max_input_frames: 6000
+  max_target_length: 256
+  use_amp: 1
+  save_optimizer: 1
+  seed: 1337
+  log_interval: 50
+
+sweep_order:
+  - encoder_lr
+
+sweep_space:
+  encoder_lr:
+    - 5.0e-6
+    - 1.0e-5
+
+infer_args:
+  gpu_ids: all
+  batch_size: 16
+  use_half: true
+  beam_size: 3
+  decode_max_len: 300
+  softmax_smoothing: 1.25
+  length_penalty: 0.6
+  eos_penalty: 1.0
+  log_interval: 20
+
+run_options:
+  base_output_dir: ./exp
+  sweep_dir_prefix: asr_sweep_dryrun
+  keep_only_best_ckpt: true
+  nproc_per_node: 8
