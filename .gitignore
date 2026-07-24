@@ -21,22 +21,6 @@ checkpoint-*/
 runs/
 wandb/
 
-# ===== 数据集 =====
-data/
-data_*/
-**/data/
-**/data_*/
-*.wav
-*.mp3
-*.flac
-*.npy
-*.npz
-*.tfrecord
-
-# ===== 大的 jsonl / 预测结果 =====
-pred_evaluation.jsonl
-*.pred.jsonl
-
 # ===== Python 缓存 =====
 __pycache__/
 *.py[cod]
