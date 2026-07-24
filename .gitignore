@@ -73,3 +73,48 @@ infer_logs/
 !FireRedASR2S-fintuning/exp/asr_chinavoices_vc/
 !FireRedASR2S-fintuning/exp/asr_chinavoices_vc/*.py
 
+# ===== 例外：fireredasr2s 包内的 data/ 子模块（是 Python 源码包，不是数据集） =====
+# 上面 **/data/ 规则会误伤这些同名的源码目录，需要显式放行
+!FireRedASR2S-fintuning/fireredasr2s/fireredasr2/data/
+!FireRedASR2S-fintuning/fireredasr2s/fireredasr2/data/**
+!FireRedASR2S-fintuning/fireredasr2s/fireredlid/data/
+!FireRedASR2S-fintuning/fireredasr2s/fireredlid/data/**
+!FireRedASR2S-fintuning/fireredasr2s/fireredpunc/data/
+!FireRedASR2S-fintuning/fireredasr2s/fireredpunc/data/**
+
+
+# Model weights
+pretrained_models/
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.safetensors
+*.bin
+
+# Training outputs
+exp/
+outputs/
+wandb/
+logs/
+runs/
+
+# Datasets and audio
+data/
+datasets/
+*.wav
+*.flac
+
+# Archives
+*.tar
+*.tar.gz
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/

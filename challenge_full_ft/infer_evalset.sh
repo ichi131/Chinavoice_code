@@ -9,10 +9,11 @@
 #   Step 2  run_infer_multi_gpu.sh: 8 卡并行推理，合并成 pred_eval.jsonl
 #   Step 3  postprocess -> result.jsonl / result.trn
 #
-# 用法（默认参数已按用户需求写好）：
-#   bash challenge_full_ft/infer_evalset.sh 2>&1 | tee infer_evalset.log
+# 用法（MODEL_CKPT / EVAL_SCP 为必填，机器/用户相关的路径不写死在脚本里）：
+#   MODEL_CKPT=/path/to/checkpoint EVAL_SCP=/path/to/wav.scp \
+#     bash challenge_full_ft/infer_evalset.sh 2>&1 | tee infer_evalset.log
 #
-# 覆盖示例：
+# 覆盖 OUT_DIR 示例（默认相对本仓库输出到 challenge_full_ft/infer_data）：
 #   MODEL_CKPT=/other/ckpt EVAL_SCP=/other/wav.scp OUT_DIR=/other/dir \
 #     bash challenge_full_ft/infer_evalset.sh
 # =============================================================================
@@ -21,10 +22,10 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)"
 
-# ---- 用户提供的默认路径 ----
-MODEL_CKPT=${MODEL_CKPT:-"/mnt/geminihzceph/user_johannapeng/challenge_model/challenge_full_ft/outputs_vc_v2/checkpoint-500"}
-EVAL_SCP=${EVAL_SCP:-"/mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_ichiwang/data/chinavoices_challenge/evaluation_set/wav.scp"}
-OUT_DIR=${OUT_DIR:-"/mnt/geminihzceph/user_johannapeng/challenge_model/infer_data"}
+# ---- 必填 / 相对路径（不写死机器/用户相关的绝对路径） ----
+MODEL_CKPT=${MODEL_CKPT:?"[infer_evalset] 请通过环境变量 MODEL_CKPT 指定 checkpoint 目录路径"}
+EVAL_SCP=${EVAL_SCP:?"[infer_evalset] 请通过环境变量 EVAL_SCP 指定 wav.scp 路径"}
+OUT_DIR=${OUT_DIR:-"${SCRIPT_DIR}/infer_data"}
 
 # ---- 推理超参 ----
 NUM_GPUS=${NUM_GPUS:-$(nvidia-smi -L 2>/dev/null | wc -l)}

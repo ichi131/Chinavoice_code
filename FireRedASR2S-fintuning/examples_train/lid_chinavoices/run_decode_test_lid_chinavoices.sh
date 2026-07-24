@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-cd /mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning
+cd /n/work6/yiwang/Chinavoice_code/FireRedASR2S-fintuning
 export PATH=/mnt/geminihzceph/user_ichiwang/envs/FireRedASR2S_H20/bin:$PATH
 export PYTHONPATH=$PWD/fireredasr2s:${PYTHONPATH:-}
 export CUDA_VISIBLE_DEVICES=${GPU_ID:-0}
@@ -14,7 +14,8 @@ output_jsonl=${OUTPUT_JSONL:-$exp_dir/data_test_pred.jsonl}
 output_txt=${OUTPUT_TXT:-$exp_dir/data_test_pred.txt}
 batch_size=${BATCH_SIZE:-64}
 num_workers=${NUM_WORKERS:-4}
-pretrained_model_dir=${PRETRAINED_MODEL_DIR:-./pretrained_models/FireRedLID}
+# 只用离线精简版（args + cmvn，无需几 GB 的原始 pretrained_model_dir），见 FireRedLID_min/README.md
+pretrained_model_dir=${PRETRAINED_MODEL_DIR:-./pretrained_models/FireRedLID_min}
 
 echo "Using single GPU: physical GPU ${GPU_ID:-0}"
 

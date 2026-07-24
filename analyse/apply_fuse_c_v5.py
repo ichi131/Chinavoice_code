@@ -1,28 +1,47 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-基于 apply_fuse_c.py 的 v5 版本：
-  - Qwen 推理侧输入改为最新的 lid_from_pred.jsonl（由 pred_eval.jsonl 提取）
-  - 输出目录改为 infer_data/mix_v5/lid.jsonl
-其余融合策略与 apply_fuse_c.py 完全一致（策略 C：一致->保持；不一致->按 dev 集上
-预测标签的 precision 择优；平局倾向 FR）。
+把 run_lid.sh 里两个 step 的 LID 解码结果融合成最终提交用的 lid.jsonl：
+  - FR_INFER : FireRedLID 在 evaluation_set 上的解码结果（run_lid.sh step1 产出）
+  - QW_INFER : Qwen3ASR-LID 在 evaluation_set 上的解码结果（run_lid.sh step2 的
+               result.jsonl，取 utt_id/pred_dialect 字段）
+
+融合策略（策略 C）：两模型预测一致 -> 直接采用；不一致 -> 按 FR_DEV/QW_DEV（带
+参考答案的 dev/test 集解码结果）算出的 per-label precision 择优，平局倾向 FR。
+FR_DEV/QW_DEV 是可选项：不提供（默认）或文件不存在时，直接跳过 precision 表，
+不一致时固定采用 FR（对应 precision 表全空时 fs=qs=0.0 的平局默认行为）。
 """
 
 import json
 import os
 from collections import defaultdict
 
-# ============ 路径配置 ============
-FR_DEV = "/mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_ichiwang/workspace/FireRedASR2S-fintuning/exp/lid_chinavoices_data_speaker_ft_encoder/data_test_pred.jsonl"
-QW_DEV = "/mnt/geminihzceph/user_johannapeng/challenge_model/challenge_full_ft/outputs_vc_v2/pred_test.jsonl"
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-FR_INFER = "/mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/user_ichiwang/workspace/FireRedASR2S-fintuning/exp/lid_chinavoices_data_speaker_ft_encoder/evaluation_pred.jsonl"
-QW_INFER = "/mnt/geminihzceph/user_johannapeng/challenge_model/infer_data/lid_from_pred.jsonl"
+# ============ 路径配置（均可用环境变量覆盖） ============
+# dev/test 集解码结果（可选，仅用于按 label precision 择优；无则跳过）
+FR_DEV = os.environ.get("FR_DEV", "")
+QW_DEV = os.environ.get("QW_DEV", "")
 
-OUT_PATH = "/mnt/geminihzceph/user_johannapeng/challenge_model/infer_data/mix_v5/lid.jsonl"
+# evaluation_set 上两个 step 的解码结果（run_lid.sh 里实际产出的路径）
+FR_INFER = os.environ.get(
+    "FR_INFER",
+    os.path.join(REPO_ROOT, "FireRedASR2S-fintuning/exp/lid_output/evaluation_pred.jsonl"),
+)
+QW_INFER = os.environ.get(
+    "QW_INFER",
+    os.path.join(REPO_ROOT, "challenge_full_ft/infer_data/result.jsonl"),
+)
+
+OUT_PATH = os.environ.get("OUT_PATH", os.path.join(REPO_ROOT, "infer_data/lid.jsonl"))
 
 
 def load_precision_table():
+    if not FR_DEV or not QW_DEV or not os.path.isfile(FR_DEV) or not os.path.isfile(QW_DEV):
+        print("[apply_fuse_c_v5] FR_DEV/QW_DEV 未提供或文件不存在，跳过 precision 表，"
+              "不一致时默认采用 FR")
+        return {}, {}, {}, {}
+
     fr_pred, fr_ref = {}, {}
     for line in open(FR_DEV):
         d = json.loads(line)
@@ -67,7 +86,7 @@ def load_infer():
     qw = {}
     for line in open(QW_INFER):
         d = json.loads(line)
-        qw[d["key"]] = d["dialect"]
+        qw[d["utt_id"]] = d["pred_dialect"]
     return fr, qw
 
 

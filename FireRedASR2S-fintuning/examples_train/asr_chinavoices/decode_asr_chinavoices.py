@@ -22,11 +22,6 @@ logger = logging.getLogger("decode_asr_chinavoices")
 ASR_MARKER = "<asr_text>"
 DIALECT_RE = re.compile(r"language\s+Chinese\s+([^\s<]+)", re.IGNORECASE)
 DEFAULT_MODEL_DIR = PROJECT_ROOT / "exp" / "asr_chinavoices_vc"
-DEFAULT_INPUT_JSONL = Path(
-    "/mnt/wfs/mmhuizhouwfssz/project_luban_infra/x_speech/"
-    "user_ichiwang/workspace/challenge_full_ft/data/evaluation.jsonl"
-)
-DEFAULT_OUTPUT_JSONL = DEFAULT_MODEL_DIR / "pred_evaluation.jsonl"
 
 
 def split_reference(content):
@@ -174,8 +169,18 @@ def parse_args():
         description="Decode ChinaVoices JSONL with a fine-tuned FireRedASR2-AED model."
     )
     parser.add_argument("--model-dir", type=Path, default=DEFAULT_MODEL_DIR)
-    parser.add_argument("--input-jsonl", type=Path, default=DEFAULT_INPUT_JSONL)
-    parser.add_argument("--output-jsonl", type=Path, default=DEFAULT_OUTPUT_JSONL)
+    parser.add_argument(
+        "--input-jsonl",
+        type=Path,
+        required=True,
+        help="Input JSONL with an 'audio' field per row (e.g. evaluation.jsonl)",
+    )
+    parser.add_argument(
+        "--output-jsonl",
+        type=Path,
+        default=None,
+        help="Defaults to <model-dir>/pred_evaluation.jsonl",
+    )
     device_group = parser.add_mutually_exclusive_group()
     device_group.add_argument(
         "--gpu-ids",
@@ -379,6 +384,8 @@ def merge_shards(shard_dir, num_shards, output_jsonl, expected_count):
 
 def main():
     args = parse_args()
+    if args.output_jsonl is None:
+        args.output_jsonl = args.model_dir / "pred_evaluation.jsonl"
     gpu_ids = resolve_gpu_ids(args)
     validate_args(args, gpu_ids)
 
