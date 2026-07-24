@@ -13,11 +13,18 @@
 """
 
 import json
+import os
 import re
 from pathlib import Path
 
-SRC = "/mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/exp/asr_chinavoices_vc/pred_evaluation.jsonl"
-DST = "/mnt/geminihzceph/user_johannapeng/challenge_model/FireRedASR2S-fintuning/exp/asr_chinavoices_vc/asr.jsonl"
+# FireRedASR2S-fintuning 项目根目录（本脚本位于 <root>/exp/asr_chinavoices_vc/ 下）
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+# 解码产物默认写在 exp/asr_chinavoices_eval/（不是 model_dir 本身，
+# 因为 run_decode_evaluation_asr_chinavoices.sh 里 model_dir 是只读挂载）
+DEFAULT_EXP_DIR = PROJECT_ROOT / "exp" / "asr_chinavoices_eval"
+
+SRC = os.environ.get("PRED_JSONL", str(DEFAULT_EXP_DIR / "pred_evaluation.jsonl"))
+DST = os.environ.get("ASR_JSONL", str(DEFAULT_EXP_DIR / "asr.jsonl"))
 
 # 需要清理的 ASR 特殊 token：形如 <xxx>，覆盖 sos/eos/unk/pad/blank/asr_text/mask 等
 SPECIAL_TOKEN_RE = re.compile(r"<[^<>\s]{1,32}>")

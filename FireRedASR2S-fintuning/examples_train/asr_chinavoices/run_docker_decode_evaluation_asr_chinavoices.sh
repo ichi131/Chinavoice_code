@@ -44,7 +44,7 @@ echo "host_data_root:    $host_data_root"
 echo "host_model_dir:    $host_model_dir"
 echo "host_exp_dir:      $host_exp_dir"
 
-docker run --rm --gpus all \
+sudo docker run --rm --gpus all \
   --user "$(id -u):$(id -g)" \
   -e HOME=/tmp \
   --shm-size=16g \
