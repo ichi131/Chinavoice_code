@@ -30,8 +30,8 @@ if [[ ! -d "$PROJECT_ROOT/.git" ]]; then
 fi
 cd "$PROJECT_ROOT"
 
-# ---- 拉模型：下载到项目自己的 models/ 目录下 ----
-MODEL_DIR=${MODEL_DIR:-"$PROJECT_ROOT/models/firered-asr-chinavoices"}
+# ---- 拉模型：下载到 CLONE_DIR/models 目录下 ----
+MODEL_DIR=${MODEL_DIR:-"$CLONE_DIR/models/firered-asr-chinavoices"}
 if [[ ! -f "$MODEL_DIR/model.pth.tar" ]]; then
     HF_HUB_DISABLE_XET=1 hf download SerenaWhite/firered-asr-chinavoices --local-dir "$MODEL_DIR"
 fi
